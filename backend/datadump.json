@@ -1,0 +1,2558 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "0ej4upnlvyguojuztubra981g21veml9",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGllO7PhDSZ8zWOvdNQ4gR4qTCnF3EikFNFPMezNvEWFbS9waL3EicRVaXH67BPjkegB6QL3PEue6LlOShyJP2uQ4E79up_t3UKCVfZ2REVNmGgbLyqXeMOk9skraBFI2ZwoYfHLOu-ABLPqODHe91wSYxecLJDs5Ow:1vsadq:DayVPR9Xiu9ageLVCQ7s3795AArK7PHuxo6tfQCXexI",
+        "expire_date": "2026-03-04T06:02:30.989Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "iokk3alrl9265z5qolbykgyifpfrvh9h",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGllO7PhDSZ8zWOvdNQ4gR4qTCnF3EikFNFPMezNvEWFbS9waL3EicRVaXH67BPjkegB6QL3PEue6LlOShyJP2uQ4E79up_t3UKCVfZ2REVNmGgbLyqXeMOk9skraBFI2ZwoYfHLOu-ABLPqODHe91wSYxecLJDs5Ow:1vys6X:H6BNKKDefNDsbTtNeWWzX2cza7drS-xWQKlVeBW85Sk",
+        "expire_date": "2026-03-21T13:54:05.887Z"
+    }
+},
+{
+    "model": "authentication.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$5ZV1RYsRRLdUaloXVcAE02$aVAbdmnr4HEpdVEI1B91usCbS3CSbfNvnJBCsVAZZJU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "testuser",
+        "first_name": "",
+        "last_name": "",
+        "email": "test@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-02-17T19:22:05.876Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authentication.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$uCoPnKpNaAWtgw1lwqdns6$V91NBS8KpeccsK/GJhH5ll7JijWod5N1NYYNX7HrqN4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "testuser2",
+        "first_name": "",
+        "last_name": "",
+        "email": "test2@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-02-17T19:51:36.054Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authentication.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$tEFRqPEwOwzwJf1W61BSQF$zanepBkZKP2p/mnG5j29b8pvpXM4riPQCYvaZViVPlk=",
+        "last_login": "2026-03-07T13:54:05.885Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-02-17T20:23:52.275Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authentication.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$hAUpibVxcQzZMQaqXBspXM$O7b54/1QpZMUesL2xNR2Qp81aea36xQnwQDm7LxuJow=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hello@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "hello@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-02-17T20:58:41.889Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authentication.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$YzmFYO5jw5fyfce8ot77t0$G0ieVoN27SmNxzlRvh6EfycRy74AjjtRDYQhUlKa3DI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hh@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "hh@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-02-17T22:59:53.224Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 1,
+    "fields": {
+        "owner": null,
+        "file": "uploads/test_upload.txt",
+        "category": "other",
+        "is_public": false,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T19:46:02.409Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 2,
+    "fields": {
+        "owner": [
+            "testuser"
+        ],
+        "file": "uploads/file1.txt",
+        "category": "other",
+        "is_public": false,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T19:52:08.353Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 3,
+    "fields": {
+        "owner": [
+            "testuser2"
+        ],
+        "file": "uploads/file2.txt",
+        "category": "other",
+        "is_public": false,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T19:52:09.583Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 4,
+    "fields": {
+        "owner": [
+            "testuser"
+        ],
+        "file": "uploads/training_doc.txt",
+        "category": "training",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T20:10:35.959Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 5,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/data_flow_fynqzq",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T20:24:43.361Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 6,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "uploads/data_flow_V3IU97F.png",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T20:37:56.188Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 7,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/6.EducationalPlatformsDigitalToolsfortheteaching-learningprocessinEducation_keecsz",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T20:42:01.239Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 8,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "uploads/data_flow_XnJ2HbS.png",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T20:56:56.123Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 9,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_ojajbw",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T21:00:41.199Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 10,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/6.EducationalPlatformsDigitalToolsfortheteaching-learningprocessinEducation_gnpch2",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T21:16:59.492Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 11,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/features_ta0sol",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T21:20:09.148Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 12,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/good_e9pee1",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T21:27:35.675Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 13,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/technology_stack_lldbm2",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T21:28:29.559Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 14,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/light_1_ytaslj",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T21:36:43.630Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 15,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "uploads/tool1.mp4",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T21:44:53.279Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 16,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/data_flow_fazg6a",
+        "category": "strategy",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T22:05:06.119Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 17,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/data_flow_jBj0MoK_gxrdba",
+        "category": "strategy",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T22:07:33.494Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 18,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/tool-1_hyjcc1",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T23:11:25.650Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 19,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/data_flow1_m6q6kc",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T23:20:47.581Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 20,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/tool-1_mexdThj_lusgcz",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T23:30:40.863Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 21,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/tool-2_eztpuw",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T23:34:18.640Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 22,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/tool-3_bitnqg",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-17T23:35:36.372Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 23,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "uploads/tool1_PXWQ97e.mp4",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T00:00:12.955Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 24,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/tool-2_mRxLiwf_tvnanw",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T00:02:39.342Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 25,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/tool-2_IdGdhvh_f91gmt",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T00:04:09.437Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 26,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "uploads/tool1_YvX7TFa.mp4",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T00:05:19.035Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 27,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/taka_tool_1-2_g12pxz",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T04:08:39.945Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 28,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/taka_tool3_pxd1tj",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T04:09:24.555Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 29,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/taka_tool4_wldsco",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T04:09:53.233Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 30,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/time-tool1_xjzx9m",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T04:15:06.079Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 31,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/time-tool2_igdble",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T04:16:42.223Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 32,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/time-tool2_mUPBo4w_qkxc2v",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T04:28:18.540Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 33,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "uploads/tool2.mp4",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-02-18T05:31:41.896Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 34,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_ppv1zg",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-03-07T21:01:56.928Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 35,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "uploads/bangla-voice_1.mp4",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-03-08T00:17:01.406Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 36,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "uploads/bangla-voice.mp4",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-03-08T02:18:04.542Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 37,
+    "fields": {
+        "owner": [
+            "hello@gmail.com"
+        ],
+        "file": "local-repository/uploads/b-1-o-1_dfzfbt",
+        "category": "community",
+        "is_public": true,
+        "title": "mushroom",
+        "description": "A promotion about mushroom",
+        "file_type": "png",
+        "grade": "Class 3",
+        "subject": "Mathematics",
+        "uploaded_at": "2026-03-08T03:12:09.932Z"
+    }
+},
+{
+    "model": "filestore.fileitem",
+    "pk": 38,
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "file": "local-repository/uploads/debate_xek0si",
+        "category": "exclusive",
+        "is_public": true,
+        "title": "",
+        "description": "",
+        "file_type": "",
+        "grade": "",
+        "subject": "",
+        "uploaded_at": "2026-06-11T18:44:39.072Z"
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 1,
+    "fields": {
+        "title": "Gamified Mathematics",
+        "subtitle": null,
+        "content": "Increase engagement by using digital badges and leveling systems for math problems.",
+        "author": "Admin User",
+        "grade": "g4",
+        "subject": "math",
+        "bookCover": "bg-indigo-900",
+        "readTime": "8 min read",
+        "unit": null,
+        "lesson": null,
+        "type": "strategy",
+        "status": "active",
+        "description": null,
+        "directions": null,
+        "videoUrl": null,
+        "date": "2026-02-17",
+        "owner": [
+            "testuser"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 9,
+    "fields": {
+        "title": "unit2 Header",
+        "subtitle": null,
+        "content": "",
+        "author": "System",
+        "grade": "g1",
+        "subject": "bangla",
+        "bookCover": "",
+        "readTime": null,
+        "unit": "unit2",
+        "lesson": "General",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 11,
+    "fields": {
+        "title": "UNIT-9: FRACTION Header",
+        "subtitle": null,
+        "content": "",
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "",
+        "readTime": null,
+        "unit": "UNIT-9: FRACTION",
+        "lesson": "General",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 17,
+    "fields": {
+        "title": "সেশন ১. ভগ্নাংশের ধারণা",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-a5392f75-7fff-8a02-1080-3f15d3d8df58\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শ্রেণিকক্ষে শিক্ষক এসে শিক্ষার্থী কেন্দ্রিক একটি পরিবেশ সৃষ্টি করে, বাস্তব জীবনের উদাহরণ টেনে পাঠ শুরু করবেন। যেমন যে শিক্ষার্থীরা টিফিন নিয়ে আসে তাদের থেকে একটি কেক, ডিম, বাজে কোন খাবার তাদের তিন বন্ধু এর মধ্যে সমানভাগে ভাগ করে খেতে বলবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. বাকিদের উপস্থিত কিছু প্রশ্ন করে ভগ্নাংশের বেসিক ধারণা দিবেন। যেমন: একটি কেক চারজন মিলে সমান ভাগ করে খেলে প্রত্যেকে পুরো একটি কেকের চার ভাগের একভাগ পাচ্ছে। অর্থাৎ প্রত্যেকে খাচ্ছে ১/৪ অংশ করে।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. এভাবে ভগ্নাংশের ধারণা আরো একটু সুন্দরভাবে বোঝাতে ওয়েবসাইডে দেওয়া ওয়ার্কশীটটি দিতে পারেন। এখানে একটি গেমের মাধ্যমে গ্রুপ ওয়ার্ক এবং অ্যাসেসমেন্ট ডিজাইন করা হয়েছে।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. ওয়ার্কশীটটি প্রতিটি গ্রুপ থেকে নিয়ে টিচার রিভিউ করে ছোট কিছু বাড়ির কাজ দিবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. তিনজন শিক্ষার্থীর থেকে পাঠের সারসংক্ষেপ শুনে, স্যার নিজেই একটি সারসংক্ষেপ বলে সবাইকে ধন্যবাদ দিয়ে পাঠ সমাপ্ত করবেন।&nbsp;</span></p></b><div><br></div>",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 18,
+    "fields": {
+        "title": "সেশন ২. সমতুল ভগ্নাংশ",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-24daea67-7fff-fd89-6081-ebda2c953a74\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><b>১. </b>শিক্ষক বোর্ডে ১/২ লিখে শিক্ষার্থীদের জিজ্ঞেস করবেন—“এটিকে কি অন্যভাবে প্রকাশ করা যায়?” এরপর একটি বৃত্ত অর্ধেক রঙ করবেন।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><b>২.</b> একই বৃত্তকে চার সমান ভাগ করে ২টি অংশ রঙ করে দেখাবেন যে ২/৪ আসলে ১/২–এর সমান।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><b>৩.</b> শিক্ষার্থীদের কাগজ ভাঁজ করে নিজেরা ১/২, ২/৪, ৪/৮ তৈরি করতে বলা হবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><b>৪. </b>“Match the Fraction” গেমের মাধ্যমে দলীয় কাজ করানো হবে, যেখানে সমতুল ভগ্নাংশ মিলাতে হবে। ওয়েবসাইটে দেওয়া&nbsp; কার্ড গুলো দিয়ে গেমটা সম্পন্ন করবেন। </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><b>৫. </b>প্রতিটি দল তাদের যুক্তি ব্যাখ্যা করবে। শিক্ষক শেষে গুণ ও ভাগের মাধ্যমে সমতুল ভগ্নাংশ বের করার নিয়ম সহজভাবে উপস্থাপন করবেন এবং বাড়ির কাজ দেবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 19,
+    "fields": {
+        "title": "সেশন ৩. ভগ্নাংশের তুলনা",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-bbcbe389-7fff-d63a-2f96-a708b7e4cf0e\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক দুটি ভিন্ন ভগ্নাংশের ছবি (যেমন ১/৩ ও ১/৪) প্রদর্শন করবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. শিক্ষার্থীদের জিজ্ঞেস করবেন—“কোনটি বড়? কেন?”</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. ভগ্নাংশ স্ট্রিপ বা কাগজ ব্যবহার করে শিক্ষার্থীরা হাতে-কলমে তুলনা করবে। এখানে ওয়েবসাইট এ দেওয়া কার্ড গুলো শিক্ষার্থীদের দেবেন। এর থেকে কালারিং কার্ডগুলো কোনটা বড় কোনটা ছোট ভগ্নাংশের মান থেকে শিক্ষার্থীরা খুঁজে বের করবে।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. সংখ্যা রেখায় (Number Line) ভগ্নাংশ বসিয়ে বড়-ছোট নির্ধারণ শেখানো হবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. শেষে “Think–Pair–Share” কার্যক্রমের মাধ্যমে ছোট মূল্যায়ন করা হবে। এখানে একটি গ্রুপ কার্যক্রম পরিচালনার মধ্য দিয়ে সমহর বিশিষ্ট ভগ্নাংশ নিয়ে আলোচনা করে শিক্ষক ক্লাসটি শেষ করবেন।&nbsp;</span></p><br><br></b>",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-rose-900",
+        "readTime": null,
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 20,
+    "fields": {
+        "title": "সেশন ৪. ভগ্নাংশের যোগ",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-33733c7c-7fff-6469-4df3-8b1e84815140\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. ক্লাসের শুরুতেই&nbsp; শিক্ষক শিক্ষার্থীদের কিছু ছোট ছোট প্রশ্ন করবেন। একটি খাবারের কিছু অংশ ছোট ভাই বোন খেলে, কিভাবে প্রতিটি অংশ যোগ করে এক পাওয়া যায়? এমন প্রশ্ন র উত্তরে শিক্ষক নিজেই বাস্তব উদাহরণ দেবেন—“রিয়া ১/৪ কেক খেল এবং মিতা ২/৪ কেক খেল। তারা মোট কত কেক খেল?”</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. বোর্ডে রঙ করা চিত্রের মাধ্যমে যোগ দেখানো হবে। সাথে একটি প্রজেক্টর দিয়ে ওয়েবসাইটে দেওয়া নির্দিষ্ট সাইটে প্রবেশ করে যোগ করলে কিভাবে ভগ্নাংশে বাড়তি অংশ বাড়ে তা সিমুলেশন সহ দেখিয়ে দিবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. ওয়েবসাইটে দেওয়া টুলের মাধ্যমে ভগ্নাংশের যোগ, বিয়োগ, গুণ এবং ভাগ সিমুলেট করে দেখাবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. শিক্ষক একই হর বিশিষ্ট ভগ্নাংশ যোগের নিয়ম আলোচনা করবেন এবং ওয়েবসাইটের মত কিছু উদাহরণ বোর্ডে করাবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. গ্রুপভিত্তিক সমস্যা সমাধান কার্যক্রম করা হবে। এখানে যে গ্রুপ সব থেকে কম সময়ে সঠিক সমাধান করতে পারবে তাদের বাকিদের বুঝিয়ে দিতে বলবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৬. উক্ত গ্রুপ থেকে ২–৩ জন শিক্ষার্থী বোর্ডে সমাধান উপস্থাপন করবে এবং শিক্ষক সারসংক্ষেপ করার মাধ্যমে ক্লাসটি শেষ করবেন। বাড়ির কাজ স্বরূপ পাঠ্য বইয়ের “নিজে কর” অংশটি দেবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-amber-900",
+        "readTime": null,
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 21,
+    "fields": {
+        "title": "সেশন ৫. ভগ্নাংশের বিয়োগ",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-14f582bb-7fff-c3ca-237b-59319f1fb902\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১.শিক্ষক বলবেন—“একটি ৪/৫ অংশ রঙ করা চিত্র থেকে ১/৫ অংশ মুছে ফেললে কত থাকবে?”</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. শিক্ষার্থীরা কয়েকটি গ্রুপে বিভক্ত হয়ে ওয়েবসাইটের ওয়ার্কশীট এর মত চিত্র এঁকে বিয়োগ প্রদর্শন করবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. একই হর বিশিষ্ট ভগ্নাংশ বিয়োগের নিয়ম ব্যাখ্যা করবেন। ওয়েবসাইট এর সাহায্যে বিয়োগের সিমুলেশন দেখাবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. “জোড়ায় কাজ করে সমস্যা সমাধান” কার্যক্রমের মাধ্যমে বিয়োগের যাবতীয় ধরনের অংকগুলো সমাধান করাবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. ক্লাস শেষে ছোট কুইজের মাধ্যমে মূল্যায়ন। এখানে পাঠ্য বইয়ে দেওয়া যোগ ও বিয়োগ এর কুইজ টাইপের প্রশ্নগুলো দিয়ে সমাধান করতে দিবেন। ক্লাসের শেষ মুহূর্তে এগুলোর সমাধান এবং ফিডব্যাক সেশন নিবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 22,
+    "fields": {
+        "title": "সেশন ৬. পাঠ্য পুস্তকের অনুশীলনী সমাধান",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-b36a03f0-7fff-3a88-f200-f35900668539\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১.শিক্ষার্থীদের ছোট দলে ভাগ করে পাঠ্য বইয়ের অনুশীলনীর ভিন্ন ভিন্ন সমস্যা দেওয়া হবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. প্রতিটি দল সমাধান করে বোর্ডে উপস্থাপন করবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. সহপাঠীরা ভুল ধরবে ও আলোচনা করবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. শিক্ষক প্রয়োজনীয় সংশোধন ও নির্দেশনা দেবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. পরিশেষে পাঠের সারসংক্ষেপ ও বাড়ির কাজ দিয়ে ক্লাসটি শেষ করবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-blue-900",
+        "readTime": null,
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 23,
+    "fields": {
+        "title": "সেশন ৭. পাঠ্যপুস্তকের অনুশীলনী সমাধান",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-235154b8-7fff-d466-5484-d2f4fbb1254e\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. পূর্ববর্তী সেশন এর শিক্ষার্থীদের দলগুলো পরিবর্তন করে&nbsp; ছোট দলে ভাগ করে পাঠ্য বইয়ের বাকি ভিন্ন ভিন্ন সমস্যা দেওয়া হবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. প্রতিটি দল সমাধান করে বোর্ডে উপস্থাপন করবে এবং সবথেকে ভালো উপস্থাপনার জন্য প্রথম তিন থেকে পাঁচজনকে চকলেট দিবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. সহপাঠীরা ভুল ধরবে ও আলোচনা করবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. শিক্ষক প্রয়োজনীয় সংশোধন ও নির্দেশনা দেবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. পাঠের সারসংক্ষেপ করে বাড়ির কাজ প্রদান করবেন এবং পরীক্ষায় আসার মত কিছু প্রশ্ন বাড়ির কাজ স্বরূপ দিবেন ।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 24,
+    "fields": {
+        "title": "অধ্যায় ১০: বাংলাদেশী মুদ্রা Header",
+        "subtitle": null,
+        "content": "",
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "General",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 25,
+    "fields": {
+        "title": "সেশন ১. বাংলাদেশী মুদ্রা চিনি",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-469bb13b-7fff-70f0-dbb9-904c50e81b9c\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক শ্রেণিকক্ষে এসে শিক্ষার্থীদের জিজ্ঞেস করবেন—“তোমরা কি কখনও দোকান থেকে কিছু কিনেছো? কী দিয়ে কিনেছো?”—এই প্রশ্নের মাধ্যমে পাঠ শুরু করবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. এরপর ওয়েবসাইটে দেওয়া সকল ধরনের নোট ও কয়েন (১ টাকা, ২ টাকা, ৫ টাকা, ১০ টাকা ইত্যাদি) দেখিয়ে তাদের আকার, রং, সংখ্যা ও মান সম্পর্কে ধারণা দিবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. শিক্ষার্থীদের হাতে মুদ্রা দিয়ে পর্যবেক্ষণ করতে বলা হবে—কোনটি ধাতব, কোনটি কাগজের, কোনটির মান বেশি।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. “টাকা চিনো” নামে একটি দ্রুত খেলা আয়োজন করা হবে, যেখানে শিক্ষক একটি মুদ্রা দেখাবেন এবং শিক্ষার্থীরা দ্রুত তার নাম ও মান বলবে। এখানে ওয়েবসাইটে দেওয়া টাকার গুলো ব্যবহার করবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. শেষে একটি ছোট ওয়ার্কশিট দেওয়া হবে যেখানে ছবি দেখে মুদ্রার মান লিখতে হবে এবং পাঠ্য বইয়ে দেওয়া ছবি বুঝানোর জন্য সমাধান করাবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 26,
+    "fields": {
+        "title": "সেশন ২. বাংলাদেশী মুদ্রা চিনী",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-5237e444-7fff-0042-783f-7e6627205450\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. দ্বিতীয় সেশনে ওয়েবসাইটে দেওয়া টাকা নোটগুলো দিয়ে একটি গেইম দিয়ে কাজটি শুরু করবেন। “সর্টিং গেম” খেলতে দিয়ে শিক্ষক সহ সহায়তা করবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. টাকার নোট গুলো দিয়ে নির্দিষ্ট সংখ্যক টাকা বানাতে বলবেন। যেমন: ২৭০ টাকা বানাতে কোন টাকার কতগুলো নোট প্রয়োজন?&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. ওয়েবসাইটে দেওয়া “ ডান বাম মিলাও” ওয়ার্কশীটটি পাঁচটি গ্রুপ&nbsp; করে সময় বেঁধে&nbsp; দিয়ে সমাধান করতে দিবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. সবশেষে ওয়েবসাইটে দেওয়া টাকার নোটগুলো দিয়ে দশ মিনিটের ক্রেতা বিক্রেতা অভিনয় করতে বলবেন। এখানে ফরমেটিভ অ্যাসেসমেন্ট হিসেবে অভিনয় যে শিক্ষার্থীরা করবে না তাদের থেকে কিছু প্রশ্ন উত্তর নিবেন। যেমন: “কত টাকার কেনাকাটা হলো? ওমুক শিক্ষার্থী কত ফেরত পাবে?”</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 27,
+    "fields": {
+        "title": "সেশন ৩. ছবি দেখে মুদ্রা বিনিময় করি",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-9a5e71e6-7fff-4b2b-6a35-80567b2147ac\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক বাজার বা দোকানের একটি বড় ছবি প্রদর্শন করবেন। এখানে ফাস্টফুড, খেলনা, চকলেট ইত্যাদি থাকবে। শিক্ষক ওয়েবসাইট থেকে ছবিটি দেখাতে পারেন। </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ২. শিক্ষার্থীদের বলা হবে—“তোমার কাছে ২০ টাকা আছে, তুমি কী কিনবে?” মৌখিক উত্তরের পরে ওয়েবসাইটে দেওয়া ওয়ার্কশীট প্রতিটি শিক্ষার্থীদের দেবেন। এভাবে তাদেরকে অ্যাসেসমেন্ট দিয়ে ফিডব্যাক দিবেন।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৩. শিক্ষার্থীরা তাদের উত্তরগুলো হিসাব সহ উপস্থাপন করবে। শিক্ষক ভুলগুলো ধরিয়ে দিয়ে একটি সারসংক্ষেপ আলোচনা করবেন।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৪. শিক্ষক আলোচনা করবেন—সঠিকভাবে টাকা গণনা না জানলে কী সমস্যা হতে পারে এবং অনুশীলনীর শুরুর দিকের কিছু অংক বাড়ির কাজ দিবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 28,
+    "fields": {
+        "title": "সেশন ৪. ধাতব মুদ্রা ও টাকা হিসাব করি",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-665a9fdf-7fff-966b-2c73-d85cb1d20d83\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. বিভিন্ন কয়েন (১, ২, ৫ টাকা) দিয়ে শিক্ষার্থীদের মোট টাকা নির্ণয় করতে বলা হবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ২. “কে আগে সঠিক হিসাব করবে?” গেমে দলগুলো প্রতিযোগিতা করবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৩. প্রতিটি দল তাদের সমাধান বোর্ডে লিখবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৪. শিক্ষক ভুল হলে সংশোধন করে সঠিক নিয়ম ব্যাখ্যা করবেন।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৫. বাড়ির কাজ হিসেবে ৫টি কয়েন ও টাকার মিলিত যোগফল বের করার অনুশীলন দেওয়া হবে।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 29,
+    "fields": {
+        "title": "সেশন ৫. টাকা পয়সা যোগ করি",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-4443c841-7fff-e058-6dcd-aec71dd337e1\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক বোর্ডে একাধিক উদাহরণ দেবেন, যেমন: ২৫ টাকা + ৩০ টাকা = ?</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ২. শিক্ষার্থীরা জোড়ায় কাজ করে সমস্যা সমাধান করবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৩. শব্দ সমস্যা দেওয়া হবে—“রাহিম ৪০ টাকার বই ও ২০ টাকার খাতা কিনলো। মোট কত টাকা লাগলো?”</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৪. এভাবে পাঁচটি গ্রুপে ৫ ধরনের বাস্তবমুখী সমস্যা দিবেন সমাধানের উদ্দেশ্যে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৫. সবশেষে শিক্ষক সারসংক্ষেপ করবেন এবং পাঠ্য পুস্তকের “নিজে করো” অংশটি বাড়ি কাজ হিসেবে দেবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 30,
+    "fields": {
+        "title": "সেশন ৬. ছবি দেখে বাজার করি",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-c7e2d232-7fff-a6cf-1353-44fda0ffc1c5\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক শুরুতেই শিক্ষার্থীদের সরাসরি বাজারে যাওয়ার অভিজ্ঞতা আছে কিনা জিজ্ঞেস করবেন। কারো অভিজ্ঞতা থাকলে সেটি শুনে, বাকিদের পছন্দ-অপছন্দ ছোট পরিসরে শুনবেন।</span></p><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২.শিক্ষার্থীদের অতঃপর ওয়েবসাইটে দেওয়া ওয়ার্কশিটে “একটি দোকান থেকে কিনে” পাঁচটি গ্রুপে সমাধান করতে দিবেন।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৩. প্রত্যেক দলকে নির্দিষ্ট পরিমাণ টাকা (যেমন ১০০ টাকা) দেওয়া হবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৪. তারা পরিকল্পনা করবে কীভাবে টাকা খরচ করবে এবং কত টাকা অবশিষ্ট থাকবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৫. প্রতিটি দল তাদের কেনাকাটার তালিকা উপস্থাপন করবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৬. শিক্ষক সঠিক হিসাব ও পরিকল্পনার গুরুত্ব ব্যাখ্যা করবেন।</span></b>",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-indigo-900",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 31,
+    "fields": {
+        "title": "সেশন ৭. অনুশীলনী সমাধান",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-8f599d0b-7fff-f8b8-31bc-547bacb4bfa9\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. পাঠ্যপুস্তকের অনুশীলনী থেকে সমস্যা বেছে দলভিত্তিক ভাগ করে দেওয়া হবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ২. শিক্ষার্থীরা আলোচনা করে সমাধান করবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৩. প্রতিটি দল বোর্ডে উপস্থাপন করবে এবং অন্যরা মতামত দেবে।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৪. শিক্ষক ভুল সংশোধন ও অতিরিক্ত ব্যাখ্যা প্রদান করবেন।</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><br></span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> ৫. শেষে পুরো অধ্যায়ের সারসংক্ষেপ ও মৌখিক মূল্যায়ন করা হবে।</span></b>",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 32,
+    "fields": {
+        "title": "সেশন ৮. অনুশীলনী সমাধান",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-b458a3c9-7fff-3c5a-c3f4-e48d7fbfa379\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. সেশন সাতের পরবর্তী সমস্যাগুলো ক্লাসে আলোচনা করবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. অনুশীলনী থেকে কিছু নতুন প্রশ্ন বানিয়ে করতে দিবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. যে সকল শিক্ষার্থীরা বেশি ভুল করবে তাদের জন্য ওয়েবসাইটে দেওয়া পূর্ববর্তী worksheet গুলো আবারো করতে দিবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. সবশেষে পরীক্ষায় আসার মতো কিছু প্রশ্ন নমুনা হিসেবে সমাধান করতে দিবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-17",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 33,
+    "fields": {
+        "title": "১১.১ : সময় পরিমাপ",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-ff660f26-7fff-ce25-4623-fa833a6d22b6\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক শ্রেণিকক্ষে এসে শিক্ষার্থীদের জিজ্ঞেস করবেন—“তোমরা কখন ঘুম থেকে ওঠো?” “স্কুলে কখন আসো?”—এভাবে বাস্তব জীবনের প্রশ্নের মাধ্যমে পাঠ শুরু করবেন। এরপর একটি দেয়াল ঘড়ি বা ঘড়ির মডেল দেখিয়ে ছোট কাঁটা (ঘণ্টা) ও বড় কাঁটা (মিনিট) পরিচয় করিয়ে দেবেন। তিনি বোঝাবেন যে ছোট কাঁটা ঘণ্টা নির্দেশ করে এবং বড় কাঁটা মিনিট নির্দেশ করে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. শিক্ষক ওয়েবসাইটে দেওয়া ঘড়িতে ৩টা, ৬টা, ৯টা ইত্যাদি সময় দেখাবেন। তারপর “সময় বলো” কার্যক্রম শুরু করবেন। এখানে ওয়েবসাইটের টুল টা ব্যবহার করে একটি “স্পিন গেম” এ তিনি ঘড়ির কাঁটা একটি নির্দিষ্ট অবস্থানে বসাবেন এবং শিক্ষার্থীদের সময় বলতে বলবেন। আবার শিক্ষার্থীদের একজনকে ডেকে একটি নির্দিষ্ট সময় (যেমন ৫টা, ৭টা ৩০ মিনিট) সেট করতে বলবেন। এতে সবাই অংশগ্রহণ করবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. এরপর শিক্ষার্থীদের দৈনন্দিন কাজের সময় হিসাব করতে বলা হবে। যেমন—স্কুলে আসতে কত মিনিট লাগে, টিফিন কতক্ষণ চলে, রাতে কত ঘণ্টা ঘুমায় ইত্যাদি। তারা খাতায় একটি ছোট সময়সূচি তৈরি করবে। এতে সময়ের ব্যবহার সম্পর্কে তাদের বাস্তব ধারণা তৈরি হবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. শেষে একটি ওয়েবসাইটের ওয়ার্কশিট দেওয়া হবে যেখানে ঘড়ির ছবি দেখে সময় লিখতে হবে। ছোট একটি মৌখিক কুইজ নেওয়া হবে, যেমন—“৭টা ৩০ মিনিটে ছোট কাঁটা কোথায় থাকবে?” পাঠের শেষে ২–৩ জন শিক্ষার্থীর কাছ থেকে সারসংক্ষেপ শুনে শিক্ষক পাঠ সমাপ্ত করবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-cyan-900",
+        "readTime": null,
+        "unit": "অধ্যায় ১১: পরিমাপ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-18",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 34,
+    "fields": {
+        "title": "১১.২: দৈর্ঘ্য ও ওজন পরিমাপ Header",
+        "subtitle": null,
+        "content": "",
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "",
+        "readTime": null,
+        "unit": "১১.২: দৈর্ঘ্য ও ওজন পরিমাপ",
+        "lesson": "General",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-18",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 35,
+    "fields": {
+        "title": "১১.২: দৈর্ঘ্য ও ওজন পরিমাপ",
+        "subtitle": null,
+        "content": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-43c30947-7fff-855c-542f-c3b6fc480c9a\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক শিক্ষার্থীদের জিজ্ঞেস করবেন—“আমরা কীভাবে উচ্চতা মাপি?” “চাল বা ফল কেনার সময় কীভাবে ওজন করি?” এরপর স্কেল, মিটার স্কেল ও ওজন মাপার যন্ত্র দেখিয়ে তাদের ব্যবহার পরিচয় করিয়ে দেবেন। তিনি সেন্টিমিটার, মিটার ও কেজি এককের সহজ ধারণা ব্যাখ্যা করবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. এরপর শিক্ষার্থীদের হাতে স্কেল দিয়ে শ্রেণিকক্ষের টেবিল, বই, খাতা বা পেন্সিল মাপতে বলা হবে। তারা খাতায় ফলাফল লিখবে। একইভাবে একটি ওজন মাপার যন্ত্র ব্যবহার করে ব্যাগ বা বইয়ের ওজন মাপানো হবে। এতে তারা হাতে-কলমে শিখতে পারবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. শিক্ষার্থীদের ছোট দলে ভাগ করে প্রতিটি দলকে আলাদা বস্তু মাপার দায়িত্ব দেওয়া হবে। যেমন—এক দল টেবিল মাপবে, অন্য দল দরজার উচ্চতা মাপবে, আরেক দল ব্যাগের ওজন নির্ণয় করবে। দলগুলো আলোচনা করে তাদের ফলাফল নির্ধারণ করবে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. ওয়েবসাইটে দেওয়া কিছু ভিডিও শিক্ষার্থীদের সাথে শেয়ার করে মিলিমিটার সেন্টিমিটার মিটার এগুলোর সম্পর্ক বুঝিয়ে বলবেন। সাথে ওয়েবসাইটের দেওয়া সম্পর্কের চার্ট টি “মুখে মুখে বলি “ একটি কার্যক্রম দেবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. অতঃপর, প্রতিটি দল তাদের মাপা ফলাফল বোর্ডে লিখে উপস্থাপন করবে। অন্য দলগুলো তা মিলিয়ে দেখবে। শিক্ষক সঠিক পদ্ধতি ব্যাখ্যা করবেন এবং প্রয়োজনে ভুল সংশোধন করবেন। শেষে একটি ছোট মূল্যায়ন নেওয়া হবে, যেমন—“১ মিটার সমান কত সেন্টিমিটার?” অথবা “ ৫০০ মিলিমিটারের পানি ১০০ মিলিমিটারের কতগুলো ওয়ান টাইম গ্লাস পূর্ণ করতে পারবে?” কিছু গ্লাস শিক্ষক তাদের দিয়ে ক্লাসে এটা সরাসরি দেখাবেন।&nbsp;</span></p></b><br class=\"Apple-interchange-newline\">",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "অধ্যায় ১১: পরিমাপ",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-02-18",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 36,
+    "fields": {
+        "title": "Facts and Fables Header",
+        "subtitle": null,
+        "content": "",
+        "author": "System",
+        "grade": "g3",
+        "subject": "english",
+        "bookCover": "",
+        "readTime": null,
+        "unit": "Facts and Fables",
+        "lesson": "General",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-03-08",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 37,
+    "fields": {
+        "title": "Facts & Fables Header",
+        "subtitle": null,
+        "content": "",
+        "author": "System",
+        "grade": "g3",
+        "subject": "english",
+        "bookCover": "",
+        "readTime": null,
+        "unit": "Facts & Fables",
+        "lesson": "General",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-03-08",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 38,
+    "fields": {
+        "title": "Fact & Fables Header",
+        "subtitle": null,
+        "content": "",
+        "author": "System",
+        "grade": "g3",
+        "subject": "english",
+        "bookCover": "",
+        "readTime": null,
+        "unit": "Fact & Fables",
+        "lesson": "General",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "videoUrl": "",
+        "date": "2026-03-08",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "strategies.strategy",
+    "pk": 39,
+    "fields": {
+        "title": "The ant and the grasshoppers",
+        "subtitle": null,
+        "content": "১. শিক্ষক ক্লাসে এসে পিঁপড়া এবং ঘাসফড়িং নিয়ে ছোট কিছু প্রশ্ন করবেন।&nbsp;<br>২. শিক্ষার্থীদের মধ্যে কার কোনটা পছন্দ এবং কেন ক্লাসের শুরুতে জেনে নিবেন&nbsp;<br>৩. শিক্ষার্থীদের English for today বই এর এই lesson এর কিছু গুরুত্বপূর্ণ শব্দার্থ পড়িয়ে দিবেন।<br>৪. এরপর ওয়েবসাইটে দেওয়া বই টা ক্লাসে প্রেজেন্ট করবেন।<br>৫. বই এক একটি পেজ প্লে করার পর একজন করে শিক্ষার্থীর থেকে এখানে কি বোঝানো হয়েছে জিজ্ঞেস করবেন।<br>৬. এরপর নিজে একই পৃষ্ঠার উপরে কিছু কথা বুঝিয়ে বলবেন।<br>৭. এভাবে সম্পূর্ণ গল্পটি শেষ হলে English For Today থেকে একটিভিটি গুলো ক্লাসে করাবেন।",
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "english",
+        "bookCover": "bg-slate-800",
+        "readTime": null,
+        "unit": "",
+        "lesson": "",
+        "type": "strategy",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "videoUrl": "http://localhost:3000/the-ant-and-the-grasshopper",
+        "date": "2026-03-08",
+        "owner": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "training.course",
+    "pk": 1,
+    "fields": {
+        "title": "Zoom app training module",
+        "instructor": "Zoom official",
+        "duration": "0h",
+        "enrolled": 0,
+        "likes": 0,
+        "level": "Beginner",
+        "image": "https://st1.zoom.us/static/6.3.52789/image/thumb.png",
+        "description": "",
+        "created_at": "2026-02-18T05:21:44.320Z"
+    }
+},
+{
+    "model": "training.module",
+    "pk": 2,
+    "fields": {
+        "course": 1,
+        "title": "Download and install",
+        "order": 0
+    }
+},
+{
+    "model": "training.lesson",
+    "pk": 2,
+    "fields": {
+        "module": 2,
+        "title": "Downloading & Updating the Zoom Desktop Client",
+        "duration": "00:00",
+        "description": "",
+        "video_url": "https://youtu.be/7ggoO2LZsY0?list=PLKpRxBfeD1kGl3UM5cE6oOOFf67mZN0fg",
+        "order": 0
+    }
+},
+{
+    "model": "training.lesson",
+    "pk": 3,
+    "fields": {
+        "module": 2,
+        "title": "New Lesson Unit",
+        "duration": "00:00",
+        "description": "",
+        "video_url": "https://www.youtube.com/watch?v=sZO7P61h8Mc&list=PLKpRxBfeD1kGl3UM5cE6oOOFf67mZN0fg&index=2",
+        "order": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 1,
+    "fields": {
+        "title": "new content",
+        "subtitle": null,
+        "author": null,
+        "grade": "g1",
+        "subject": "bangla",
+        "type": "pdf",
+        "status": "active",
+        "description": "this is pedagogy",
+        "directions": "<div>this is strategy</div><div>dasfasdfasdf</div>",
+        "extraLinks": null,
+        "bookCover": null,
+        "unit": "new unit",
+        "lesson": "new lesson",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/6.EducationalPlatformsDigitalToolsfortheteaching-learningprocessinEducation.pdf",
+        "created_at": "2026-02-17T20:38:06.972Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 2,
+    "fields": {
+        "title": "photo",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g1",
+        "subject": "bangla",
+        "type": "image",
+        "status": "Published",
+        "description": "pedagogy",
+        "directions": "streeee",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "new unit",
+        "lesson": "new lesson",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/features.png",
+        "created_at": "2026-02-17T21:20:17.889Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 3,
+    "fields": {
+        "title": "new2 Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g1",
+        "subject": "bangla",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "new2",
+        "lesson": "General",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T21:27:14.251Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 4,
+    "fields": {
+        "title": "new Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g1",
+        "subject": "bangla",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "new2",
+        "lesson": "new",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T21:27:20.326Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 5,
+    "fields": {
+        "title": "pdf",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g1",
+        "subject": "bangla",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "this&nbsp;",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "new2",
+        "lesson": "new",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/good.pdf",
+        "created_at": "2026-02-17T21:27:41.021Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 6,
+    "fields": {
+        "title": "image",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g1",
+        "subject": "bangla",
+        "type": "image",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "new2",
+        "lesson": "new",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/light_1.png",
+        "created_at": "2026-02-17T21:28:36.887Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 7,
+    "fields": {
+        "title": "video",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g1",
+        "subject": "bangla",
+        "type": "video",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "new2",
+        "lesson": "new",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/tool1.mp4",
+        "created_at": "2026-02-17T21:44:57.290Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 9,
+    "fields": {
+        "title": "সেশন ১. ভগ্নাংশের ধারণা  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T23:09:20.852Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 13,
+    "fields": {
+        "title": "পাজেল মিলাই ( ভগ্নাংশের ধারণা)",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-d02784b7-7fff-a2da-0e4b-bf3d3ff3c882\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক কালারিং পেপার টা প্রিন্ট করে দিবেন। এখানে সাদা দাগ বরাবর কেটে প্রতিটি অংশ আলাদা করে একটি বক্সে রাখবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. শিক্ষার্থীদের হাতে সাদা কালো ড্রইং পেপারটির প্রিন্টেড কপি দিবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. গ্রুপে ভাগ করে ড্রইং পেপার এবং টুকরো করা পাজেল বুঝিয়ে দেবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. ডেমো হিসেবে ওয়ার্কশিটের প্রথমে দেওয়া পেয়ারার ১/২ অংশ পাজেল থেকে নিয়ে ড্রইং পেপারে বসিয়ে মিলিয়ে দেখাবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫ . সবশেষে, সময় বেঁধে না দিয়ে সকল শিক্ষার্থীর কাজ দেখবেন যেহেতু এটা প্রথম ক্লাসের একটি একটিভিটি।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/tool-1_mexdThj.pdf",
+        "created_at": "2026-02-17T23:30:44.660Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 14,
+    "fields": {
+        "title": "সেশন ২. সমতুল ভগ্নাংশ  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ২. সমতুল ভগ্নাংশ",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T23:32:47.776Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 15,
+    "fields": {
+        "title": "সেশন ৩. ভগ্নাংশের তুলনা  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৩. ভগ্নাংশের তুলনা",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T23:32:57.507Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 16,
+    "fields": {
+        "title": "সেশন ৪. ভগ্নাংশের যোগ  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৪. ভগ্নাংশের যোগ",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T23:33:07.330Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 17,
+    "fields": {
+        "title": "সেশন ৫. ভগ্নাংশের বিয়োগ  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৫. ভগ্নাংশের বিয়োগ",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T23:33:15.359Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 18,
+    "fields": {
+        "title": "সেশন ৬. পাঠ্য পুস্তকের অনুশীলনী সমাধান Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৬. পাঠ্য পুস্তকের অনুশীলনী সমাধান",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T23:33:26.126Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 19,
+    "fields": {
+        "title": "সেশন ৭. পাঠ্যপুস্তকের অনুশীলনী সমাধান  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৭. পাঠ্যপুস্তকের অনুশীলনী সমাধান",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-17T23:33:34.015Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 22,
+    "fields": {
+        "title": "ভগ্নাংশের যোগ",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "presentation",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-a105b4ae-7fff-8b88-5e8a-64c627847f49\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক ওয়েবসাইটে দেওয়া লিংকে গিয়ে কিভাবে ভগ্নাংশের যোগ হয় এটা ভিজ্যুয়ালাইজ করবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. ভগ্নাংশের মান পরিবর্তন করে বিভিন্ন ধরনের ভগ্নাংশের যোগ দেখাবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. সমহর বিশিষ্ট ভগ্নাংশ, মিশ্র ভগ্নাংশ প্রভৃতি নিয়ে সংখা পরিবর্তন করে যোগ করলে যোগফল কেমন হয় কিভাবে তা পূর্বে ভগ্নাংশের সাথে বৃদ্ধি পায় ওয়েবসাইটটি দিয়ে তা ভিজ্যুয়ালাইজ করাবেন ।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৪. ভগ্নাংশের যোগ",
+        "url": null,
+        "file": "",
+        "videoUrl": "https://www.geogebra.org/m/uuehy4h4",
+        "created_at": "2026-02-17T23:38:16.990Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 23,
+    "fields": {
+        "title": "ভগ্নাংশের বিয়োগ",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "video",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-1c4475a6-7fff-50fd-0796-da181aece0a5\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক ওয়েবসাইটে দেওয়া লিংকে গিয়ে কিভাবে ভগ্নাংশের বিয়োগ হয় এটা ভিজ্যুয়ালাইজ করবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. ভগ্নাংশের মান পরিবর্তন করে বিভিন্ন ধরনের ভগ্নাংশের বিয়োগ দেখাবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. সমহর বিশিষ্ট ভগ্নাংশ, মিশ্র ভগ্নাংশ প্রভৃতি নিয়ে সংখা পরিবর্তন করে বিয়োগ করলে বিয়োগফল কেমন হয় কিভাবে তা পূর্বে ভগ্নাংশ থেকে কমে যায় ওয়েবসাইটটি দিয়ে তা ভিজ্যুয়ালাইজ করাবেন ।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৫. ভগ্নাংশের বিয়োগ",
+        "url": null,
+        "file": "",
+        "videoUrl": "https://www.geogebra.org/m/dn5m8jr8",
+        "created_at": "2026-02-17T23:43:59.754Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 25,
+    "fields": {
+        "title": "সঠিক কার্ড খুঁজে বের করি ( ভগ্নাংশের ধারণা)",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-8739078b-7fff-2721-1fc9-efe665f35f8d\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. ওয়েবসাইটে দেওয়া কার্ড গুলো শিক্ষক প্রিন্ট করবেন । শেপ এবং মান গুলো আলাদা করে কেটে শিক্ষার্থীদের দেবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. একটি বক্সে শুধু শেপ এর কার্ড রাখবেন এবং মান এর কার্ড গুলো অন্য বক্সে রাখবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. ডেমো হিসেবে দুটি কার্ড নিজে তুলে বুঝিয়ে দিবেন ।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. শিক্ষার্থীরা ভুল করলে কালার ইস্যুটি বুঝিয়ে দেবেন । এভাবে শেপ এবং তার মানের জন্য একই কালার ব্যবহার করা হয়েছে যাতে শিক্ষার্থীরা সহজেই বুঝতে পারে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. কিছু কার্ড দিয়ে ক্লাসের শেষে শিক্ষক একটি ফরমেটিভ অ্যাসেসমেন্ট সম্পন্ন করবেন ।&nbsp;</span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ২. সমতুল ভগ্নাংশ",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style.pdf",
+        "created_at": "2026-02-18T00:02:40.752Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 26,
+    "fields": {
+        "title": "সঠিক কার্ড খুঁজে বের করি",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-fa3345e1-7fff-d3f5-4ab4-be17c5430061\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. ওয়েবসাইটে দেওয়া কার্ড গুলো শিক্ষক প্রিন্ট করবেন । শেপ এবং মান গুলো আলাদা করে কেটে শিক্ষার্থীদের দেবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. একটি বক্সে শুধু শেপ এর কার্ড রাখবেন এবং মান এর কার্ড গুলো অন্য বক্সে রাখবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. ডেমো হিসেবে দুটি কার্ড নিজে তুলে বুঝিয়ে দিবেন ।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. শিক্ষার্থীরা ভুল করলে কালার ইস্যুটি বুঝিয়ে দেবেন । এভাবে শেপ এবং তার মানের জন্য একই কালার ব্যবহার করা হয়েছে যাতে শিক্ষার্থীরা সহজেই বুঝতে পারে।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. কিছু কার্ড দিয়ে ক্লাসের শেষে শিক্ষক একটি ফরমেটিভ অ্যাসেসমেন্ট সম্পন্ন করবেন । </span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/tool-2_IdGdhvh.pdf",
+        "created_at": "2026-02-18T00:04:31.486Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 27,
+    "fields": {
+        "title": "সঠিক কার্ড খুঁজে বের করি Tutorial video",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "video",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/tool1_YvX7TFa.mp4",
+        "created_at": "2026-02-18T00:05:29.324Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 29,
+    "fields": {
+        "title": "সেশন ১. বাংলাদেশী মুদ্রা চিনি  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "সেশন ১. বাংলাদেশী মুদ্রা চিনি",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-18T04:06:51.909Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 30,
+    "fields": {
+        "title": "সেশন ২. বাংলাদেশী মুদ্রা চিনী  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "সেশন ২. বাংলাদেশী মুদ্রা চিনী",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-18T04:07:04.028Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 31,
+    "fields": {
+        "title": "সেশন ৩. ছবি দেখে মুদ্রা বিনিময় করি  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "সেশন ৩. ছবি দেখে মুদ্রা বিনিময় করি",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-18T04:07:12.090Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 32,
+    "fields": {
+        "title": "সেশন ৪. ধাতব মুদ্রা ও টাকা হিসাব করি  Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "সেশন ৪. ধাতব মুদ্রা ও টাকা হিসাব করি",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-18T04:07:21.297Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 33,
+    "fields": {
+        "title": "বাংলাদেশী মুদ্রা",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-13e9d06a-7fff-397d-47c8-cbcb3156ab14\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><br></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক ওয়েবসাইটে দেওয়া কালারফুল পিডিএফ টি প্রিন্ট করবেন ।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. কেটে কেটে টাকা এবং পয়সা গুলো শিক্ষার্থীদের দেবেন এবং নোট গুলোর সাথে পরিচয় করিয়ে দেবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. কোনটা কতো টাকা , কোন পয়সায় কিসের ছবি এগুলো ডেকে ডেকে জিজ্ঞেস করবেন ।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. প্রতিটি শিক্ষার্থীদের ওয়েব সাইডে দেওয়া ওয়ার্কশীট টি ( বাংলাদেশী মুদ্রা : টুল ১-২) ক্লাসে দিবেন এবং তাদের&nbsp; ভুল হলে বুঝিয়ে দেবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "সেশন ১. বাংলাদেশী মুদ্রা চিনি",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/taka_tool_1-2.pdf",
+        "created_at": "2026-02-18T04:08:42.526Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 34,
+    "fields": {
+        "title": "চলো বাজার করি",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-f8764ddf-7fff-1e4e-8501-69e3a47e556f\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. ওয়েব সাইডে দেওয়া “চলো বাজার করি”&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">প্রতি শিক্ষার্থীদের একটি দিবেন। এরপর ১ নাম্বার টুল ( টাকার নোট, পয়সা) ওদের হাতে দিবেন।</span></p><br><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. তাদের এভাবে বলবেন “ তুমি ২০০ টাকার বাজার করো, তুমি ৫০০ টাকার বাজার করো “ ইত্যাদি। এরপর তারা কি কি কিনলো এবং বাকি টাকার হিসাব তাদের থেকে নিবেন।&nbsp;</span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "সেশন ৩. ছবি দেখে মুদ্রা বিনিময় করি",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/taka_tool3.pdf",
+        "created_at": "2026-02-18T04:09:25.837Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 35,
+    "fields": {
+        "title": "ডান বাম মিলাও",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-7290d74e-7fff-8a14-9163-f0b7896f454c\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. শিক্ষক পাঠ্য পুস্তকের উদাহরণ বুঝিয়ে সমাধান করিয়ে ওয়েব সাইডে দেওয়া সমস্যা গুলো শিক্ষার্থীদের দেবেন সমাধান এর জন্য।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. কিছু সময় বেঁধে দিয়ে কে কয়টা সঠিক সমাধান করলো এর মাধ্যমে ক্লাসে ফরমেটিভ অ্যাসেসমেন্ট সম্পন্ন করবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ১০: বাংলাদেশী মুদ্রা",
+        "lesson": "সেশন ৪. ধাতব মুদ্রা ও টাকা হিসাব করি",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/taka_tool4.pdf",
+        "created_at": "2026-02-18T04:10:17.416Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 36,
+    "fields": {
+        "title": "অধ্যায় ১১: পরিমাপ Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ১১: পরিমাপ",
+        "lesson": "General",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-18T04:11:11.428Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 37,
+    "fields": {
+        "title": "১১.১ : সময় পরিমাপ Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ১১: পরিমাপ",
+        "lesson": "১১.১ : সময় পরিমাপ",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-18T04:12:20.563Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 38,
+    "fields": {
+        "title": "১১.২: দৈর্ঘ্য ও ওজন পরিমাপ   Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "math",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "অধ্যায় ১১: পরিমাপ",
+        "lesson": "১১.২: দৈর্ঘ্য ও ওজন পরিমাপ",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-02-18T04:12:33.150Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 39,
+    "fields": {
+        "title": "টুল ১: সময় গণনা করি ও বলি",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-9417ce90-7fff-06d4-36d3-0107d35e1917\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. ওয়েব সাইডে দেওয়া ঘড়ি, কাটা দুটি সহ যে পিডিএফ ডিজাইন করা হয়েছে তা প্রিন্ট করবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. এরপর ঘড়ি, কাটা দুটি কেটে আলাদা করবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. একটি হিজাব পিন দিয়ে কাটা এবং ঘড়ি আটকে দিবেন ।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. কাটা দুটি বিভিন্ন স্থানে রেখে কখন সময় কতো হচ্ছে বুঝিয়ে বলবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৫. একে একে শিক্ষার্থীদের দেখে স্পিন গেম খেলার নিয়ম বলে সময় বলতে বলবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৬. ক্লাসের ঠিক শেষে শিক্ষক প্রতি শিক্ষার্থীকে দেখে ৫ টি সময় দিয়ে ঘড়ির কাঁটার অবস্থান জিজ্ঞেস করবেন। একি টুল ব্যবহার করে পাঠদান এবং অ্যাসেসমেন্ট সম্পন্ন করবেন।</span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ১১: পরিমাপ",
+        "lesson": "১১.১ : সময় পরিমাপ",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/time-tool1.pdf",
+        "created_at": "2026-02-18T04:15:49.250Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 40,
+    "fields": {
+        "title": "টুল ২: পছন্দের ঘড়ি দেখে সময় লিখো",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "pdf",
+        "status": "Published",
+        "description": "",
+        "directions": "<b style=\"font-weight:normal;\" id=\"docs-internal-guid-4e19aa78-7fff-9658-8234-9433d38c90e3\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">১. ঘড়ির কাঁটার অবস্থান বুঝে গেলে পরবর্তীতে ওয়েব সাইডে দেওয়া ওয়ার্কশীট টি প্রিন্ট করে শিক্ষার্থীদের হাতে দিবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">২. সবাইকে তাদের পছন্দের রং বাছাই করে, পছন্দের ঘড়ির সময় টি লিখতে বলবেন।</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৩. এভাবে সিরিয়ালি কে কোনটা লিখেছে সামনে ডেকে জিজ্ঞেস করবেন এবং ভুল হলে বুঝিয়ে দিবেন।&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">৪. যে শিক্ষার্থী বেশি ভুল করবে তাদের সেম কাজটি বাড়িতে আবার করতে দিবেন </span></p></b><br class=\"Apple-interchange-newline\">",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ১১: পরিমাপ",
+        "lesson": "১১.২: দৈর্ঘ্য ও ওজন পরিমাপ",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/time-tool2.pdf",
+        "created_at": "2026-02-18T04:16:43.781Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 44,
+    "fields": {
+        "title": "সঠিক কার্ড খুঁজে বের করি ( ভগ্নাংশের ধারণা) tutorial video",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "video",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ২. সমতুল ভগ্নাংশ",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/tool2.mp4",
+        "created_at": "2026-02-18T05:31:44.567Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 45,
+    "fields": {
+        "title": "ভগ্নাংশের ধারণা Animation Video",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "video",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/bangla-voice_1.mp4",
+        "created_at": "2026-03-08T00:18:53.737Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 46,
+    "fields": {
+        "title": "The Ant and the Grasshoper Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "english",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "The Ant and the Grasshoper",
+        "lesson": "General",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-03-08T00:19:23.777Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 47,
+    "fields": {
+        "title": "ভগ্নাশের ধারণা (Strategy) Animated Video",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "video",
+        "status": "Published",
+        "description": "",
+        "directions": "<div class=\"flex-1 min-w-0 text-center md:text-left\"><h5 class=\"font-black text-sm text-white uppercase tracking-tight group-hover/tool:text-[#f59e0b] transition-colors truncate mb-1\">\"সঠিক কার্ড খুঁজে বের করি\" টিচিং এইড-টি&nbsp; ব্যবহার করবেন&nbsp;</h5></div>",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/bangla-voice.mp4",
+        "created_at": "2026-03-08T02:19:23.332Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 48,
+    "fields": {
+        "title": "Reading Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "english",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "The Ant and the Grasshoper",
+        "lesson": "Reading",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-03-08T02:26:59.144Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 49,
+    "fields": {
+        "title": "Storybook",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "english",
+        "type": "presentation",
+        "status": "Published",
+        "description": "",
+        "directions": "Open the link and enjoy the virtual storybook!",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "The Ant and the Grasshoper",
+        "lesson": "Reading",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://localhost:3000/the-ant-and-the-grasshopper",
+        "created_at": "2026-03-08T02:27:45.032Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 51,
+    "fields": {
+        "title": "Storybook Header",
+        "subtitle": null,
+        "author": "System",
+        "grade": "g3",
+        "subject": "english",
+        "type": "structure",
+        "status": "Hidden",
+        "description": "Structural component",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "",
+        "unit": "Extra",
+        "lesson": "Storybook",
+        "url": null,
+        "file": "",
+        "videoUrl": "",
+        "created_at": "2026-03-08T02:30:00.665Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 52,
+    "fields": {
+        "title": "Thinking Out of the Box",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "english",
+        "type": "presentation",
+        "status": "Published",
+        "description": "",
+        "directions": "<h3>Open the link and enjoy the virtual storybook!</h3>",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "Extra",
+        "lesson": "Storybook",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://localhost:3000/lilys-story",
+        "created_at": "2026-03-08T02:31:13.498Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 53,
+    "fields": {
+        "title": "Simulation",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "presentation",
+        "status": "Published",
+        "description": "",
+        "directions": "Open the link!",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৪. ভগ্নাংশের যোগ",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://localhost:3000/simulation/fraction-addition",
+        "created_at": "2026-03-08T02:33:06.869Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 54,
+    "fields": {
+        "title": "Simulation",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "presentation",
+        "status": "Published",
+        "description": "",
+        "directions": "<h3>Open the link!</h3>",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ৫. ভগ্নাংশের বিয়োগ",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://localhost:3000/simulation/fraction-addition",
+        "created_at": "2026-03-08T02:33:32.466Z",
+        "likes": 0,
+        "views": 0
+    }
+},
+{
+    "model": "exclusive_content.exclusivematerial",
+    "pk": 55,
+    "fields": {
+        "title": "new thing",
+        "subtitle": null,
+        "author": "Admin",
+        "grade": "g3",
+        "subject": "math",
+        "type": "image",
+        "status": "Published",
+        "description": "",
+        "directions": "",
+        "extraLinks": null,
+        "bookCover": "bg-slate-800",
+        "unit": "অধ্যায় ৯: ভগ্নাংশ",
+        "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
+        "url": null,
+        "file": "",
+        "videoUrl": "http://127.0.0.1:8000/local-repository/uploads/debate.png",
+        "created_at": "2026-06-11T18:45:32.032Z",
+        "likes": 0,
+        "views": 0
+    }
+}
+]
