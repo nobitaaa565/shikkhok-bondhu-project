@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Pokemon Magazine</title>
+  <style>
+    
+    
+    .flipbook {
+      width: 900px;
+      height: 450px; /* Maintain 2:1 aspect ratio */
+      margin: 0; /* Removed any outside margin */
+      padding: 0; /* Removed any outside padding */
+    }
+  </style>
+</head>
+
+  <body>
+    <!-- Full-page background video -->
+    <video autoplay muted loop playsinline style="position:fixed; top:0; left:0; width:100vw; height:100vh; object-fit:cover; z-index:-2;">
+      <source src="images/bg.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- 3% blur overlay -->
+    <div style="position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:-1; backdrop-filter:blur(3px);"></div>
+    <!-- Transparent header with logo at the very top -->
+    <header style="position:fixed; top:0; left:0; width:100vw; z-index:100; display:flex; align-items:center; justify-content:center; padding:18px 32px; border-radius:0 0 16px 16px; background:rgba(0,0,0,0.45); backdrop-filter:blur(4px);">
+      <img src="images/logo.png" alt="Logo" style="height:48px; width:auto;">
+    </header>
+    <div style="height:90px;"></div>
+  <div class="container">
+    <button class="nav-button prev" onclick="previousPage()" id="prev-page-btn">←</button>
+    <script>
+      document.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowLeft') {
+        document.getElementById('prev-page-btn').click();
+      }
+      });
+    </script>
+    <button class="nav-button next" onclick="nextPage()" id="next-page-btn">→</button>
+    <script>
+      document.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowRight') {
+        document.getElementById('next-page-btn').click();
+      }
+      });
+    </script>
+
+
+
+
+
+    <div class="flipbook">
+      <div class="hard">
+        <video id="pikachu-video"  src="images/cover.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div class="hard">
+        <img src="images/last_cover.png" alt="Logo" style="width:100%; border-radius:12px;" />
+      </div>
+      <!-- 39 pages -->
+      <!-- You can replace the content of each page as needed -->
+      
+      <!-- Pages 1-39 -->
+      <!-- Example: page 6 has a video, others are placeholders -->
+      
+      <div>
+        <h3>Made by:</h3>
+        <p>Ratri</p>
+        <p>Sunny</p>
+        <p>Tahmina</p>
+      </div>
+
+      <div>
+        <video id="pikachu-video" src="images/page4.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            In a quiet village, surrounded by golden fields and gentle winds, lived a kind father and his only beautiful and intelligent daughter, Lily. 
+        </div>
+        <div class="page-indicator">Page 1</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page6.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+     <div>
+        <div class="overlay">
+          One day, change arrived at their door. Lily's father couldn't pay the huge debt of the village master. Therefore, the son of the village master wished to marry Lily as an exchange.         
+        </div>
+        <div class="page-indicator">Page 2</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page8.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+          But Lily refused kindly, for her heart longed to choose its own path and so the master's son got furious.    
+        </div>
+        <div class="page-indicator">Page 3</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page10.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+          Not even that, the master also got furious and hearing the rejection , he called all the villagers and Lily also. And he gave her a test as a punishment to Lily.    
+        </div>
+        <div class="page-indicator">Page 4</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page12.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            Lily got nervous because all the villagers were present there. Thinking of her father's innocent face she was just hearing the master's talks.
+        </div>
+        <div class="page-indicator">Page 5</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page14.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            The test was like- There will be two bags with two types of stones. A white stone and a black stone defining the luck of Lily. To get rid of it, Lily had to pick the bag with carried white stone.        </div>
+        <div class="page-indicator">Page 6</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page16.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            Hearing all these, Lily just looked mindlessly around.
+        </div>
+        <div class="page-indicator">Page 7</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page18.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            Lily's sharp eyes caught something others didn't see.
+            The master's son put black stones into both bags .Not a single white stone could be found!
+            The game was a trap.
+        </div>
+        <div class="page-indicator">Page 8</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page20.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            The villagers got closer, hearts pounding.
+            No one could guess what would happen next. Lily's father was also very tensed and felt guilty. But Lily remained so  relaxed.
+       </div>
+        <div class="page-indicator">Page 9</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page22.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            The bags were handovered to Lily.         
+        </div>
+        <div class="page-indicator">Page 10</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page24.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            So as the rules, she chose one of them and got ready to open it. But she was ready to implement her intelligence and get out of it.
+        </div>
+        <div class="page-indicator">Page 11</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page26.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+     <div>
+        <div class="overlay">
+            To not get questionable, she made a pissed face about the test.        
+        </div>
+        <div class="page-indicator">Page 12</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page28.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            When she took out the stone, it unfortunately slipped out of hand. The stone got lost in the crowd.        
+        </div>
+        <div class="page-indicator">Page 13</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page30.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            The villagers started to search for the stone but couldn't find it. So, everyone got confused about how to finish the test.
+        </div>
+        <div class="page-indicator">Page 14</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page32.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            Then Lily told them all, “If the remaining bag has the black stone then the fallen stone was white. And if the remaining bag has the white stone then the fallen stone was black.
+        </div>
+        <div class="page-indicator">Page 15</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page34.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            As the saying goes, Lily took out the stone and it turned out to be a black stone. According to the rules, Lilly won.
+        </div>
+        <div class="page-indicator">Page 16</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page36.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            Everyone praised Lily for winning. But only Lily knows how she won it. Her father was very happy and the boy was ashamed.        
+        </div>
+        <div class="page-indicator">Page 17</div>
+      </div>
+
+
+      <div>
+        <video id="pikachu-video" src="images/page38.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div>
+        <div class="overlay">
+            The lesson of the story is that, “One has to find the solution by thinking out of the options (Like Lily) and one's bad intentions can never harm others (Like the son of the master).        </div>
+        <div class="page-indicator">Page 18</div>
+      </div>
+
+
+      <div>------</div>
+      
+      
+      
+      <div class="hard">
+        <video id="pikachu-video" src="images/last_cover.mp4" width="100%" height="auto"  muted>
+        </video>
+      </div>
+      <div class="hard">
+        <img src="images/last_cover.png" alt="Logo" style="width:100%; border-radius:12px;" />
+      </div>
+    </div>
+  </div>
+  <!-- Flex container for buttons -->
+  <div class="btn-flex">
+  <button id="reload-btn" class="fancy-btn red-btn">⟳ Reload</button>
+<button id="play-audio-btn" class="fancy-btn orange-btn">Read</button>
+<script>
+    document.addEventListener('keydown', function(e) {
+        if (e.code === 'Space') {
+            e.preventDefault();
+            document.getElementById('play-audio-btn').click();
+        }
+    });
+</script>
+  <button id="pause-audio-btn" class="fancy-btn orange-btn">Pause</button>
+  <button id="bg-music-btn" class="fancy-btn orange-btn">Music Off</button>
+  </div>
+
+  <script src="jquery.js"></script>
+  <script src="turn.js"></script>
+  <!-- Audio elements for specific pages -->
+  <!-- Background music -->
+  <audio id="bg-music" src="audio/bg.mp3" preload="auto" autoplay loop></audio>
+  <!-- Audio elements for all 39 pages -->
+  <!-- You can add the audio files later -->
+  <!-- Example: <audio id="audio-page-1" src="audio/page1.mp3" preload="auto"></audio> -->
+  
+  
+  <audio id="audio-page-4" src="audio/page5.mp3" preload="auto"></audio>
+  <audio id="audio-page-5" src="audio/page5.mp3" preload="auto"></audio>
+  <audio id="audio-page-6" src="audio/page7.mp3" preload="auto"></audio>
+  <audio id="audio-page-7" src="audio/page7.mp3" preload="auto"></audio>
+  <audio id="audio-page-8" src="audio/page9.mp3" preload="auto"></audio>
+  <audio id="audio-page-9" src="audio/page9.mp3" preload="auto"></audio>
+  <audio id="audio-page-10" src="audio/page11.mp3" preload="auto"></audio>
+  <audio id="audio-page-11" src="audio/page11.mp3" preload="auto"></audio>
+  <audio id="audio-page-12" src="audio/page13.mp3" preload="auto"></audio>
+  <audio id="audio-page-13" src="audio/page13.mp3" preload="auto"></audio>
+  <audio id="audio-page-14" src="audio/page15.mp3" preload="auto"></audio>
+  <audio id="audio-page-15" src="audio/page15.mp3" preload="auto"></audio>
+  <audio id="audio-page-16" src="audio/page17.mp3" preload="auto"></audio>
+  <audio id="audio-page-17" src="audio/page17.mp3" preload="auto"></audio>
+  <audio id="audio-page-18" src="audio/page19.mp3" preload="auto"></audio>
+  <audio id="audio-page-19" src="audio/page19.mp3" preload="auto"></audio>
+  <audio id="audio-page-20" src="audio/page21.mp3" preload="auto"></audio>
+  <audio id="audio-page-21" src="audio/page21.mp3" preload="auto"></audio>
+  <audio id="audio-page-22" src="audio/page23.mp3" preload="auto"></audio>
+  <audio id="audio-page-23" src="audio/page23.mp3" preload="auto"></audio>
+  <audio id="audio-page-24" src="audio/page25.mp3" preload="auto"></audio>
+  <audio id="audio-page-25" src="audio/page25.mp3" preload="auto"></audio>
+  <audio id="audio-page-26" src="audio/page27.mp3" preload="auto"></audio>
+  <audio id="audio-page-27" src="audio/page27.mp3" preload="auto"></audio>
+  <audio id="audio-page-28" src="audio/page29.mp3" preload="auto"></audio>
+  <audio id="audio-page-29" src="audio/page29.mp3" preload="auto"></audio>
+  <audio id="audio-page-30" src="audio/page31.mp3" preload="auto"></audio>
+  <audio id="audio-page-31" src="audio/page31.mp3" preload="auto"></audio>
+  <audio id="audio-page-32" src="audio/page33.mp3" preload="auto"></audio>
+  <audio id="audio-page-33" src="audio/page33.mp3" preload="auto"></audio>
+  <audio id="audio-page-34" src="audio/page35.mp3" preload="auto"></audio>
+  <audio id="audio-page-35" src="audio/page35.mp3" preload="auto"></audio>
+  <audio id="audio-page-36" src="audio/page37.mp3" preload="auto"></audio>
+  <audio id="audio-page-37" src="audio/page37.mp3" preload="auto"></audio>
+  <audio id="audio-page-38" src="audio/page39.mp3" preload="auto"></audio>
+  <audio id="audio-page-39" src="audio/page39.mp3" preload="auto"></audio>
+  <script>
+    // Background music toggle logic
+    var bgMusic = document.getElementById('bg-music');
+    var bgMusicBtn = document.getElementById('bg-music-btn');
+    var bgMusicOn = true;
+
+    // Ensure autoplay works on load (may require user interaction on some browsers)
+    document.addEventListener('DOMContentLoaded', function() {
+      if (bgMusic) {
+        bgMusic.volume = 0.25;
+        bgMusic.play().catch(function(){});
+      }
+    });
+
+    bgMusicBtn.addEventListener('click', function() {
+      if (bgMusicOn) {
+        bgMusic.pause();
+        bgMusicOn = false;
+        bgMusicBtn.textContent = 'Music On';
+      } else {
+        bgMusic.play();
+        bgMusicOn = true;
+        bgMusicBtn.textContent = 'Music Off';
+      }
+    });
+    // Pause/Resume audio logic
+    var pausedAudio = null;
+    var isPaused = false;
+
+    function togglePauseAudio() {
+      // Find any currently playing audio
+      var audios = document.querySelectorAll('audio');
+      var playing = null;
+      audios.forEach(function(audio) {
+        if (!audio.paused && !audio.ended && audio.currentTime > 0) {
+          playing = audio;
+        }
+      });
+      var btn = document.getElementById('pause-audio-btn');
+      if (!isPaused && playing) {
+        playing.pause();
+        pausedAudio = playing;
+        isPaused = true;
+        btn.textContent = 'Play';
+      } else if (isPaused && pausedAudio) {
+        pausedAudio.play();
+        isPaused = false;
+        btn.textContent = 'Pause';
+      }
+    }
+
+    document.getElementById('pause-audio-btn').addEventListener('click', togglePauseAudio);
+    // Track current page for audio
+    var currentFlipbookPage = 1;
+    
+    // Navigation functions
+    function previousPage() {
+      $('.flipbook').turn('previous');
+    }
+    
+    function nextPage() {
+      $('.flipbook').turn('next');
+    }
+
+    // Function to play audio for the current page
+    function playPageAudioManual() {
+      // Stop all page audios first
+      // Stop all page audios first
+      for (let i = 1; i <= 39; i++) {
+        var audio = document.getElementById('audio-page-' + i);
+        if(audio) {
+          audio.pause();
+          audio.currentTime = 0;
+        }
+      }
+
+      console.log("Current page:", currentFlipbookPage); // Debug line to check current page
+
+      // Play audio for the current page
+      var audioCurrent = document.getElementById('audio-page-' + currentFlipbookPage);
+      if(audioCurrent) audioCurrent.play();
+    }
+
+    // Add click event listener to the Read button
+    document.getElementById('play-audio-btn').addEventListener('click', playPageAudioManual);
+
+    $(".flipbook").turn({
+  when: {
+    turning: function(event, page, pageObject) {
+      // Update current page before the turn completes
+      currentFlipbookPage = page;
+    },
+    turned: function(event, page, view) {
+      // Update current page after the turn is complete
+      currentFlipbookPage = page;
+      console.log("Page turned to:", page); // Debug line to track page turns
+
+      // Pause and reset all media (video/audio) on every page turn
+      setTimeout(function() {
+        document.querySelectorAll('.flipbook video, .flipbook audio').forEach(function(media) {
+          media.pause();
+          media.currentTime = 0;
+        });
+        // Play only media in the currently visible page
+        var $visiblePages = $('.flipbook .page:visible, .flipbook > div:visible');
+        $visiblePages.find('video, audio').each(function() {
+          this.currentTime = 0;
+          this.play();
+        });
+      }, 100);
+    }
+  }
+});
+
+    // Hide default controls
+    document.addEventListener('DOMContentLoaded', function() {
+      var video = document.getElementById('pikachu-video');
+      if(video) {
+        video.controls = false;
+      }
+    });
+    // Button event listeners
+    document.addEventListener('DOMContentLoaded', function() {
+      var playBtn = document.getElementById('play-audio-btn');
+      var reloadBtn = document.getElementById('reload-btn');
+      if(playBtn) playBtn.onclick = playPageAudioManual;
+      if(reloadBtn) reloadBtn.onclick = function() { window.location.reload(); };
+    });
+  </script>
+</body>
+
+</html>

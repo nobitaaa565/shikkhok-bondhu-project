@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Flow Diagram</title>
+</head>
+
+<body>
+    <h2>Figure 3.1: Data Flow Diagram</h2>
+    <div class="mermaid">
+        graph TD
+        User[Educator / Client UI / React]
+
+        Auth(User Authentication Flow / JWT)
+        AsyncProcess(Asynchronous Processing)
+        StateSync(Client State Sync / LocalStorage)
+        BackendAPI(RESTful API / Django Backend)
+        ResponseGen(Response Generation)
+
+        DB[(Content Management DB / PostgreSQL)]
+
+        User -->|Enters Credentials| Auth
+        Auth -->|Generates Session| User
+
+        User -->|Interacts with Training Modules| StateSync
+        StateSync -->|Periodic Sync / Validation| BackendAPI
+
+        User -->|Creates Posts / Media Uploads| AsyncProcess
+        AsyncProcess -->|Non-blocking Request| BackendAPI
+
+        BackendAPI <-->|Complex Queries & Fetching| DB
+
+            BackendAPI -->|Processed Information| ResponseGen
+            ResponseGen -->|Populates Dynamic Views| User
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+
+</html>

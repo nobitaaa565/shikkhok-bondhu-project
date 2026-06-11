@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCore - Teaching Excellence Amplified</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    letterSpacing: {
+                        tightest: '-0.04em',
+                        tighter: '-0.015em',
+                        tight: '-0.01em',
+                        normal: '-0.015em',
+                    },
+                    fontFamily: {
+                        sans: ['CustomBangla', 'Inter', 'sans-serif'],
+                        serif: ['CustomBangla', 'Inter', 'sans-serif'],
+                        mono: ['CustomBangla', 'Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'CustomBangla';
+            src: url('/animation/fractions-bangla/font2.ttf') format('truetype');
+            unicode-range: U+0980-09FF, U+200C-200D;
+        }
+
+        :root {
+            --amethyst-focus: #7C3AED;
+            --amethyst-glow: rgba(124, 58, 237, 0.6);
+            --amethyst-deep: #2E1065;
+            --accent-pink: #FF1CF7;
+
+            --bg-dark: #020618;
+            --tile-bg: #0f172a;
+            --text-primary: #ffffff;
+
+            --white-alpha-5: rgba(255, 255, 255, 0.05);
+            --white-alpha-10: rgba(255, 255, 255, 0.1);
+        }
+
+        [data-theme='light'] {
+            --bg-dark: #f8fafc;
+            --tile-bg: #FFFFFF;
+            --text-primary: #0F172A;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            font-family: 'CustomBangla', 'Inter', sans-serif;
+            letter-spacing: -0.015em;
+            margin: 0;
+            overflow-x: hidden;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Typography Override */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #FFFFFF !important;
+        }
+
+        [data-theme='light'] h1,
+        [data-theme='light'] h2,
+        [data-theme='light'] h3,
+        [data-theme='light'] h4,
+        [data-theme='light'] h5,
+        [data-theme='light'] h6 {
+            color: #0F172A !important;
+        }
+
+        /* Common Utility Classes */
+        .tile {
+            background: var(--tile-bg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+        }
+
+        .tile:hover {
+            border-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .hero-text-gradient,
+        .gradient-text {
+            background: linear-gradient(135deg, #FFFFFF 0%, #94A3B8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .cta-button {
+            background: var(--amethyst-focus);
+            color: white;
+            font-weight: 800;
+            border-radius: 12px;
+            padding: 16px 32px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(124, 58, 237, 0.4);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(124, 58, 237, 0.6);
+            background: #6D28D9;
+        }
+
+        .focus-border {
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: border-color 0.3s ease;
+        }
+
+        .focus-border:hover,
+        .focus-border:focus-within {
+            border-color: var(--amethyst-focus);
+        }
+
+        .focus-text {
+            color: var(--amethyst-focus);
+        }
+
+        .contact-input {
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: white;
+            padding: 16px;
+            width: 100%;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .contact-input:focus {
+            border-color: var(--amethyst-focus);
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .status-pulse {
+            width: 8px;
+            height: 8px;
+            background-color: #10B981;
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            animation: pulse-green 2s infinite;
+            display: inline-block;
+        }
+
+        @keyframes pulse-green {
+            0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            }
+
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+            }
+
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+            }
+        }
+
+        @keyframes wave {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .mono {
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.02em;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-dark);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 10px;
+        }
+
+        /* --- GLOBAL LIGHT MODE COLOR OVERRIDES --- */
+
+        [data-theme='light'] .text-white {
+            color: #0F172A !important;
+        }
+
+        [data-theme='light'] .text-white\/90 {
+            color: rgba(15, 23, 42, 0.9) !important;
+        }
+
+        [data-theme='light'] .text-white\/80 {
+            color: rgba(15, 23, 42, 0.8) !important;
+        }
+
+        [data-theme='light'] .text-white\/70 {
+            color: rgba(15, 23, 42, 0.7) !important;
+        }
+
+        [data-theme='light'] .text-white\/60 {
+            color: rgba(15, 23, 42, 0.6) !important;
+        }
+
+        [data-theme='light'] .text-white\/50 {
+            color: rgba(15, 23, 42, 0.5) !important;
+        }
+
+        [data-theme='light'] .text-white\/40 {
+            color: rgba(15, 23, 42, 0.4) !important;
+        }
+
+        [data-theme='light'] .text-white\/30 {
+            color: rgba(15, 23, 42, 0.3) !important;
+        }
+
+        [data-theme='light'] .text-white\/20 {
+            color: rgba(15, 23, 42, 0.2) !important;
+        }
+
+        [data-theme='light'] .text-white\/10 {
+            color: rgba(15, 23, 42, 0.1) !important;
+        }
+
+        /* MANDATORY: ALL Purple containers/hovers MUST have WHITE text in LIGHT MODE */
+        [data-theme='light'] .bg-\[\#7c3aed\],
+        [data-theme='light'] .bg-\[\#7c3aed\] *,
+        [data-theme='light'] .hover\:bg-\[\#7c3aed\]:hover,
+        [data-theme='light'] .hover\:bg-\[\#7c3aed\]:hover *,
+        [data-theme='light'] .bg-purple-600,
+        [data-theme='light'] .bg-purple-600 *,
+        [data-theme='light'] .cta-button,
+        [data-theme='light'] .cta-button *,
+        [data-theme='light'] .bg-\[var\(--amethyst-focus\)\] {
+            color: #FFFFFF !important;
+        }
+
+        [data-theme='light'] .bg-white\/5,
+        [data-theme='light'] .bg-white\/10,
+        [data-theme='light'] .bg-black\/20,
+        [data-theme='light'] .bg-black\/40 {
+            background-color: rgba(15, 23, 42, 0.05) !important;
+        }
+
+        [data-theme='light'] .border-white\/5,
+        [data-theme='light'] .border-white\/10,
+        [data-theme='light'] .border-white\/20 {
+            border-color: rgba(15, 23, 42, 0.1) !important;
+        }
+
+        [data-theme='light'] .hero-text-gradient,
+        [data-theme='light'] .gradient-text {
+            background: linear-gradient(135deg, #0F172A 0%, #475569 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* --- SHIKKHOK EXCLUSIVE SPECIFIC LIGHT MODE OVERRIDES --- */
+
+        /* 1. Target and replace the dark container colors (#0f172a and #161e30) with pure white in the orange-themed section */
+        [data-theme='light'] .theme-override-orange .bg-\[\#161e30\],
+        [data-theme='light'] .theme-override-orange .bg-\[\#0f172a\],
+        [data-theme='light'] .theme-override-orange .tile,
+        [data-theme='light'] .theme-override-orange header.tile {
+            background-color: #ffffff !important;
+            background-image: none !important;
+            /* Disables dark gradients from headers */
+            border: 1px solid #e2e8f0 !important;
+            /* Adds soft border for structural visibility */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+        }
+
+        /* 2. Fix text contrast for all text elements inside white containers in the Exclusive page */
+        [data-theme='light'] .theme-override-orange .bg-\[\#161e30\] h1,
+        [data-theme='light'] .theme-override-orange .bg-\[\#161e30\] h2,
+        [data-theme='light'] .theme-override-orange .bg-\[\#161e30\] h3,
+        [data-theme='light'] .theme-override-orange .bg-\[\#161e30\] h4,
+        [data-theme='light'] .theme-override-orange .bg-\[\#161e30\] p,
+        [data-theme='light'] .theme-override-orange .bg-\[\#0f172a\] h1,
+        [data-theme='light'] .theme-override-orange .bg-\[\#0f172a\] h2,
+        [data-theme='light'] .theme-override-orange .bg-\[\#0f172a\] h3,
+        [data-theme='light'] .theme-override-orange .bg-\[\#0f172a\] h4,
+        [data-theme='light'] .theme-override-orange .bg-\[\#0f172a\] p,
+        [data-theme='light'] .theme-override-orange .tile h1,
+        [data-theme='light'] .theme-override-orange .tile h2,
+        [data-theme='light'] .theme-override-orange .tile h3,
+        [data-theme='light'] .theme-override-orange .tile h4,
+        [data-theme='light'] .theme-override-orange .tile p {
+            color: #0F172A !important;
+        }
+
+        /* 3. Search and Dropdown inputs visibility correction */
+        [data-theme='light'] .theme-override-orange input.bg-\[\#0f172a\],
+        [data-theme='light'] .theme-override-orange input.bg-\[\#161e30\],
+        [data-theme='light'] .theme-override-orange .ModernDropdown button {
+            background-color: #ffffff !important;
+            border: 1px solid #cbd5e1 !important;
+            color: #0f172a !important;
+        }
+
+        [data-theme='light'] .theme-override-orange input::placeholder {
+            color: #94a3b8 !important;
+        }
+
+        /* 4. Pedagogical Text visibility (Inner descriptions) */
+        [data-theme='light'] .theme-override-orange .formatted-content {
+            color: #334155 !important;
+        }
+
+        [data-theme='light'] .theme-override-orange .formatted-content b {
+            color: #000000 !important;
+        }
+
+        /* 5. Tool Item list entries */
+        [data-theme='light'] .theme-override-orange .bg-white\/\[0\.03\] {
+            background-color: #ffffff !important;
+            border: 1px solid #f1f5f9 !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02) !important;
+        }
+
+        [data-theme='light'] .theme-override-orange .group\/tool:hover {
+            background-color: #fffbeb !important;
+            border-color: #f59e0b !important;
+        }
+
+        /* 6. Sub-Header metadata text and colors */
+        [data-theme='light'] .theme-override-orange .text-white\/30,
+        [data-theme='light'] .theme-override-orange .text-white\/40,
+        [data-theme='light'] .theme-override-orange .text-white\/60 {
+            color: #64748b !important;
+        }
+
+        [data-theme='light'] .theme-override-orange .text-\[\#f59e0b\]\/60 {
+            color: #b45309 !important;
+            /* High contrast amber for subtext */
+        }
+
+        /* --- ADMIN PANEL SPECIFIC LIGHT MODE OVERRIDES --- */
+
+        /* 1. Force all main containers to pure white */
+        [data-theme='light'] .admin-panel-container .tile,
+        [data-theme='light'] .admin-panel-container .bg-slate-900\/40,
+        [data-theme='light'] .admin-panel-container .bg-cyan-900\/10,
+        [data-theme='light'] .admin-panel-container .bg-white\/5 {
+            background-color: #FFFFFF !important;
+            border: 1px solid #e2e8f0 !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+            background-image: none !important;
+        }
+
+        /* 2. Fix text colors in Admin Panel */
+        [data-theme='light'] .admin-panel-container h1,
+        [data-theme='light'] .admin-panel-container h2,
+        [data-theme='light'] .admin-panel-container h3,
+        [data-theme='light'] .admin-panel-container h4,
+        [data-theme='light'] .admin-panel-container h5,
+        [data-theme='light'] .admin-panel-container h6 {
+            color: #0F172A !important;
+        }
+
+        [data-theme='light'] .admin-panel-container p,
+        [data-theme='light'] .admin-panel-container li,
+        [data-theme='light'] .admin-panel-container span:not(.status-pulse):not(.badge) {
+            color: #334155 !important;
+        }
+
+        /* 3. Fix Table headers and rows */
+        [data-theme='light'] .admin-panel-container th {
+            color: #64748b !important;
+            background-color: #f8fafc !important;
+            border-bottom: 1px solid #e2e8f0 !important;
+        }
+
+        [data-theme='light'] .admin-panel-container td {
+            color: #334155 !important;
+            border-bottom: 1px solid #f1f5f9 !important;
+        }
+
+        [data-theme='light'] .admin-panel-container tr:hover td {
+            background-color: #f8fafc !important;
+        }
+
+        /* 4. Fix specific text transparencies */
+        [data-theme='light'] .admin-panel-container .text-white\/40,
+        [data-theme='light'] .admin-panel-container .text-white\/30,
+        [data-theme='light'] .admin-panel-container .text-white\/60 {
+            color: #64748b !important;
+        }
+
+        /* 5. Buttons and Interactive Elements */
+        [data-theme='light'] .admin-panel-container button.bg-white\/5,
+        [data-theme='light'] .admin-panel-container button.rounded-md.bg-white\/5 {
+            background-color: #f1f5f9 !important;
+            color: #475569 !important;
+            border: 1px solid #cbd5e1 !important;
+        }
+
+        [data-theme='light'] .admin-panel-container button.bg-white\/5:hover,
+        [data-theme='light'] .admin-panel-container button.rounded-md.bg-white\/5:hover {
+            background-color: #e2e8f0 !important;
+            color: #0f172a !important;
+        }
+
+        /* 6. Dashboard metrics special case */
+        [data-theme='light'] .admin-panel-container .text-cyan-400 {
+            color: #0891b2 !important;
+            /* Darker cyan for light mode */
+        }
+
+        [data-theme='light'] .admin-panel-container .text-amber-400 {
+            color: #d97706 !important;
+            /* Darker amber for light mode */
+        }
+
+        /* 7. Formattable Input Box Fixes */
+        [data-theme='light'] .admin-panel-container .formatted-content-editor,
+        [data-theme='light'] .admin-panel-container .formatted-content-editor * {
+            color: #334155 !important;
+        }
+
+        [data-theme='light'] .admin-panel-container .formatted-content-editor blockquote {
+            color: #64748b !important;
+            border-left-color: #0ea5e9 !important;
+        }
+
+        [data-theme='light'] .admin-panel-container .group.border-white\/10 {
+            border-color: #e2e8f0 !important;
+            background-color: #ffffff !important;
+        }
+
+        [data-theme='light'] .admin-panel-container .bg-black\/40 {
+            background-color: #ffffff !important;
+        }
+
+        [data-theme='light'] .admin-panel-container .bg-white\/5.border-b.border-white\/10 {
+            background-color: #f8fafc !important;
+            border-bottom-color: #e2e8f0 !important;
+        }
+
+        [data-theme='light'] .admin-panel-container .contact-input {
+            background-color: #ffffff !important;
+            border: 1px solid #cbd5e1 !important;
+            color: #334155 !important;
+        }
+
+        [data-theme='light'] .admin-panel-container .contact-input:focus {
+            background-color: #ffffff !important;
+            border-color: #7c3aed !important;
+            box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1) !important;
+        }
+
+        /* 8. Light Mode Preview Stage */
+        [data-theme='light'] .preview-stage {
+            background-color: #ffffff !important;
+            border-color: #e2e8f0 !important;
+        }
+
+        [data-theme='light'] .preview-stage img {
+            background-color: #ffffff !important;
+        }
+
+        /* 9. MANDATORY: Cyan Containers MUST have pure white text in LIGHT MODE */
+        [data-theme='light'] .bg-\[\#0891b2\],
+        [data-theme='light'] .bg-\[\#0891b2\] *,
+        [data-theme='light'] .bg-cyan-600,
+        [data-theme='light'] .bg-cyan-600 *,
+        [data-theme='light'] .bg-cyan-500,
+        [data-theme='light'] .bg-cyan-500 *,
+        [data-theme='light'] .hover\:bg-cyan-500:hover,
+        [data-theme='light'] .hover\:bg-cyan-500:hover *,
+        [data-theme='light'] button[class*="bg-cyan"],
+        [data-theme='light'] button[class*="bg-cyan"] * {
+            color: #ffffff !important;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
