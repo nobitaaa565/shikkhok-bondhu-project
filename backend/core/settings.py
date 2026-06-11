@@ -10,7 +10,13 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+import os
 from pathlib import Path
+
+try:
+    import dj_database_url
+except ImportError:
+    dj_database_url = None
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,13 +36,25 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.onrender.com']
 
 # Application definition
 
+CLOUDINARY_ACTIVE = os.environ.get('CLOUDINARY_URL') is not None
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+]
+
+if CLOUDINARY_ACTIVE:
+    INSTALLED_APPS.append('cloudinary_storage')
+
+INSTALLED_APPS.append('django.contrib.staticfiles')
+
+if CLOUDINARY_ACTIVE:
+    INSTALLED_APPS.append('cloudinary')
+
+INSTALLED_APPS += [
     # Third party
     'rest_framework',
     'rest_framework_simplejwt',
@@ -85,12 +103,17 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if dj_database_url and os.environ.get('DATABASE_URL'):
+    DATABASES = {
+        'default': dj_database_url.config(conn_max_age=600)
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation
@@ -133,6 +156,10 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # Local Storage Repositories
 MEDIA_ROOT = BASE_DIR / 'LOCAL_CONTENT_REPOSITORY'
 MEDIA_URL = '/local-repository/'
+
+# Use Cloudinary as the default storage backend for media files if active
+if CLOUDINARY_ACTIVE:
+    DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
