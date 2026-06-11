@@ -160,6 +160,9 @@ MEDIA_URL = '/local-repository/'
 # Use Cloudinary as the default storage backend for media files if active
 if CLOUDINARY_ACTIVE:
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+    CLOUDINARY_STORAGE = {
+        'RESOURCE_TYPE': 'auto'
+    }
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
