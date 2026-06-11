@@ -21,7 +21,6 @@ backend/.venv/
 # Django database & media/uploads
 backend/db.sqlite3
 backend/LOCAL_CONTENT_REPOSITORY/
-backend/filestore/
 
 # IDE / Editor configuration
 .vscode/
