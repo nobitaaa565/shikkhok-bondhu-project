@@ -241,7 +241,7 @@ export const INITIAL_EXCLUSIVE = [
         "views": 0,
         "file": "",
         "url": null,
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/tool1_y63wvf.mp4"
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246850/local-repository/uploads/tool1_rxbmlr.mp4"
     },
     {
         "id": "9",
@@ -462,7 +462,7 @@ export const INITIAL_EXCLUSIVE = [
         "views": 0,
         "file": "",
         "url": null,
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/tool1_y63wvf.mp4"
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246850/local-repository/uploads/tool1_rxbmlr.mp4"
     },
     {
         "id": "29",
@@ -649,7 +649,7 @@ export const INITIAL_EXCLUSIVE = [
         "views": 0,
         "file": "",
         "url": null,
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/tool1_y63wvf.mp4"
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246850/local-repository/uploads/tool1_rxbmlr.mp4"
     },
     {
         "id": "40",
@@ -700,7 +700,7 @@ export const INITIAL_EXCLUSIVE = [
         "views": 0,
         "file": "",
         "url": null,
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/bangla-voice_1_hbvv6f.mp4"
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246911/local-repository/uploads/bangla-voice_1_ycidzs.mp4"
     },
     {
         "id": "46",
@@ -734,7 +734,7 @@ export const INITIAL_EXCLUSIVE = [
         "views": 0,
         "file": "",
         "url": null,
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/bangla-voice_1_hbvv6f.mp4"
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246911/local-repository/uploads/bangla-voice_1_ycidzs.mp4"
     },
     {
         "id": "48",
@@ -1325,7 +1325,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1004,
-        "file": "/uploads/bangla-voice_1.mp4",
+        "file": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246911/local-repository/uploads/bangla-voice_1_ycidzs.mp4",
         "category": "community",
         "is_public": true,
         "title": "bangla voice 1",
@@ -1349,7 +1349,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1006,
-        "file": "/uploads/bangla-voice.mp4",
+        "file": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781259635/bangla-voice_dqskw4.mp4",
         "category": "community",
         "is_public": true,
         "title": "bangla voice",
@@ -1373,7 +1373,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1008,
-        "file": "/uploads/tool2.mp4",
+        "file": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246893/local-repository/uploads/tool2_f7c38a.mp4",
         "category": "community",
         "is_public": true,
         "title": "tool2",
@@ -1397,7 +1397,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1010,
-        "file": "/uploads/tool1.mp4",
+        "file": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246850/local-repository/uploads/tool1_rxbmlr.mp4",
         "category": "community",
         "is_public": true,
         "title": "tool1",
