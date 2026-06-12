@@ -27,6 +27,12 @@ def find_local_file(db_filename, media_dir):
     # 2. Check by stripping suffix (e.g. debate_xek0si -> debate.png)
     base_name = os.path.splitext(filename)[0]
     
+    # Special fallback for tool-1 (since tool-1-new.m4v was deleted)
+    if "tool-1" in base_name.lower():
+        pdf_path = media_dir / "tool-1.pdf"
+        if pdf_path.exists():
+            return pdf_path
+            
     # Try prefix matching for base_name split by last underscore
     parts = base_name.rsplit('_', 1)
     if len(parts) > 1:
