@@ -105,7 +105,7 @@
     "pk": 1,
     "fields": {
         "owner": null,
-        "file": "uploads/test_upload.txt",
+        "file": "local-repository/uploads/test_upload_howpjb.txt",
         "category": "other",
         "is_public": false,
         "title": "",
@@ -159,7 +159,7 @@
         "owner": [
             "testuser"
         ],
-        "file": "uploads/training_doc.txt",
+        "file": "local-repository/uploads/training_doc_c5rhry.txt",
         "category": "training",
         "is_public": true,
         "title": "",
@@ -177,7 +177,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/data_flow_fynqzq",
+        "file": "local-repository/uploads/data_flow1_vtgf2x.png",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -195,7 +195,7 @@
         "owner": [
             "admin"
         ],
-        "file": "uploads/data_flow_V3IU97F.png",
+        "file": "local-repository/uploads/data_flow1_zvy3fx.png",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -231,7 +231,7 @@
         "owner": [
             "admin"
         ],
-        "file": "uploads/data_flow_XnJ2HbS.png",
+        "file": "local-repository/uploads/data_flow1_xpkx33.png",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -249,7 +249,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_ojajbw",
+        "file": "local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_wwi9fr.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -357,7 +357,7 @@
         "owner": [
             "admin"
         ],
-        "file": "uploads/tool1.mp4",
+        "file": "local-repository/uploads/tool1_i0ur4c.mp4",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -375,7 +375,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/data_flow_fazg6a",
+        "file": "local-repository/uploads/data_flow1_tputyg.png",
         "category": "strategy",
         "is_public": true,
         "title": "",
@@ -393,7 +393,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/data_flow_jBj0MoK_gxrdba",
+        "file": "local-repository/uploads/data_flow1_gv541n.png",
         "category": "strategy",
         "is_public": true,
         "title": "",
@@ -411,7 +411,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/tool-1_hyjcc1",
+        "file": "local-repository/uploads/tool-1-new_dzj2db.m4v",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -429,7 +429,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/data_flow1_m6q6kc",
+        "file": "local-repository/uploads/data_flow1_rxrvny.png",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -447,7 +447,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/tool-1_mexdThj_lusgcz",
+        "file": "local-repository/uploads/tool-1-new_vuvvth.m4v",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -465,7 +465,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/tool-2_eztpuw",
+        "file": "local-repository/uploads/tool-2_bcuq8h.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -483,7 +483,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/tool-3_bitnqg",
+        "file": "local-repository/uploads/tool-3_snnaij.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -501,7 +501,7 @@
         "owner": [
             "admin"
         ],
-        "file": "uploads/tool1_PXWQ97e.mp4",
+        "file": "local-repository/uploads/tool1_mknbp4.mp4",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -519,7 +519,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/tool-2_mRxLiwf_tvnanw",
+        "file": "local-repository/uploads/tool-2_ge0fvu.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -537,7 +537,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/tool-2_IdGdhvh_f91gmt",
+        "file": "local-repository/uploads/tool-2_gnwsml.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -555,7 +555,7 @@
         "owner": [
             "admin"
         ],
-        "file": "uploads/tool1_YvX7TFa.mp4",
+        "file": "local-repository/uploads/tool1_wnnqug.mp4",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -573,7 +573,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/taka_tool_1-2_g12pxz",
+        "file": "local-repository/uploads/taka_tool_1-2_wxdtgf.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -591,7 +591,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/taka_tool3_pxd1tj",
+        "file": "local-repository/uploads/taka_tool3_zwnweg.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -609,7 +609,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/taka_tool4_wldsco",
+        "file": "local-repository/uploads/taka_tool4_djunpt.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -627,7 +627,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/time-tool1_xjzx9m",
+        "file": "local-repository/uploads/time-tool1_kthpx9.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -645,7 +645,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/time-tool2_igdble",
+        "file": "local-repository/uploads/time-tool2_ouedac.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -663,7 +663,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/time-tool2_mUPBo4w_qkxc2v",
+        "file": "local-repository/uploads/time-tool2_d7uuzo.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -681,7 +681,7 @@
         "owner": [
             "admin"
         ],
-        "file": "uploads/tool2.mp4",
+        "file": "local-repository/uploads/tool2_rklttj.mp4",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -699,7 +699,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_ppv1zg",
+        "file": "local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_qoanzt.pdf",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -717,7 +717,7 @@
         "owner": [
             "admin"
         ],
-        "file": "uploads/bangla-voice_1.mp4",
+        "file": "local-repository/uploads/bangla-voice_1_khyop8.mp4",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -735,7 +735,7 @@
         "owner": [
             "admin"
         ],
-        "file": "uploads/bangla-voice.mp4",
+        "file": "local-repository/uploads/bangla-voice_er6xks.mp4",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -771,7 +771,7 @@
         "owner": [
             "admin"
         ],
-        "file": "local-repository/uploads/debate_xek0si",
+        "file": "local-repository/uploads/debate_gfmccq.png",
         "category": "exclusive",
         "is_public": true,
         "title": "",
@@ -1649,7 +1649,7 @@
         "lesson": "new",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/tool1.mp4",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/tool1_wnnqug.mp4",
         "created_at": "2026-02-17T21:44:57.290Z",
         "likes": 0,
         "views": 0
@@ -1699,7 +1699,7 @@
         "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/tool-1_mexdThj_lusgcz",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/tool-1_arwrso",
         "created_at": "2026-02-17T23:30:44.660Z",
         "likes": 0,
         "views": 0
@@ -1924,7 +1924,7 @@
         "lesson": "সেশন ২. সমতুল ভগ্নাংশ",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_ojajbw",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_qoanzt.pdf",
         "created_at": "2026-02-18T00:02:40.752Z",
         "likes": 0,
         "views": 0
@@ -1949,7 +1949,7 @@
         "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/tool-2_IdGdhvh_f91gmt",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/tool-2_gnwsml.pdf",
         "created_at": "2026-02-18T00:04:31.486Z",
         "likes": 0,
         "views": 0
@@ -1974,7 +1974,7 @@
         "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/tool1_YvX7TFa.mp4",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/tool1_wnnqug.mp4",
         "created_at": "2026-02-18T00:05:29.324Z",
         "likes": 0,
         "views": 0
@@ -2099,7 +2099,7 @@
         "lesson": "সেশন ১. বাংলাদেশী মুদ্রা চিনি",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/taka_tool_1-2_g12pxz",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/taka_tool_1-2_wxdtgf.pdf",
         "created_at": "2026-02-18T04:08:42.526Z",
         "likes": 0,
         "views": 0
@@ -2124,7 +2124,7 @@
         "lesson": "সেশন ৩. ছবি দেখে মুদ্রা বিনিময় করি",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/taka_tool3_pxd1tj",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/taka_tool3_zwnweg.pdf",
         "created_at": "2026-02-18T04:09:25.837Z",
         "likes": 0,
         "views": 0
@@ -2149,7 +2149,7 @@
         "lesson": "সেশন ৪. ধাতব মুদ্রা ও টাকা হিসাব করি",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/taka_tool4_wldsco",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/taka_tool4_djunpt.pdf",
         "created_at": "2026-02-18T04:10:17.416Z",
         "likes": 0,
         "views": 0
@@ -2249,7 +2249,7 @@
         "lesson": "১১.১ : সময় পরিমাপ",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/time-tool1_xjzx9m",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/tool1_wnnqug.mp4",
         "created_at": "2026-02-18T04:15:49.250Z",
         "likes": 0,
         "views": 0
@@ -2274,7 +2274,7 @@
         "lesson": "১১.২: দৈর্ঘ্য ও ওজন পরিমাপ",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/time-tool2_igdble",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/time-tool2_d7uuzo.pdf",
         "created_at": "2026-02-18T04:16:43.781Z",
         "likes": 0,
         "views": 0
@@ -2299,7 +2299,7 @@
         "lesson": "সেশন ২. সমতুল ভগ্নাংশ",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/time-tool2_igdble",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/time-tool2_d7uuzo.pdf",
         "created_at": "2026-02-18T05:31:44.567Z",
         "likes": 0,
         "views": 0
@@ -2324,7 +2324,7 @@
         "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/bangla-voice_1.mp4",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/bangla-voice_1_khyop8.mp4",
         "created_at": "2026-03-08T00:18:53.737Z",
         "likes": 0,
         "views": 0
@@ -2374,7 +2374,7 @@
         "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/bangla-voice_1.mp4",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/v1/local-repository/uploads/bangla-voice_1_khyop8.mp4",
         "created_at": "2026-03-08T02:19:23.332Z",
         "likes": 0,
         "views": 0
@@ -2549,7 +2549,7 @@
         "lesson": "সেশন ১. ভগ্নাংশের ধারণা",
         "url": null,
         "file": "",
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/debate_xek0si",
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/debate_gfmccq.png",
         "created_at": "2026-06-11T18:45:32.032Z",
         "likes": 0,
         "views": 0
