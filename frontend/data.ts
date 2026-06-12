@@ -1277,7 +1277,7 @@ export const INITIAL_STRATEGIES = [
 export const INITIAL_FILES = [
     {
         "id": 1000,
-        "file": "/uploads/taka_tool_1-2.pdf",
+        "file": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/taka_tool_1-2_u7nyvh.pdf",
         "category": "community",
         "is_public": true,
         "title": "taka tool 1 2",
@@ -1289,7 +1289,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1001,
-        "file": "/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style.pdf",
+        "file": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/Fractions_Matching_Mathematics_Flashcards_in_Colourful_Bold_Style_iqjix0.pdf",
         "category": "community",
         "is_public": true,
         "title": "Fractions Matching Mathematics Flashcards in Colourful Bold Style",
@@ -1301,7 +1301,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1002,
-        "file": "/uploads/time-tool2.pdf",
+        "file": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/time-tool2_x98csc.pdf",
         "category": "community",
         "is_public": true,
         "title": "time tool2",
@@ -1361,7 +1361,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1007,
-        "file": "/uploads/taka_tool4.pdf",
+        "file": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/taka_tool4_nwxeib.pdf",
         "category": "community",
         "is_public": true,
         "title": "taka tool4",
@@ -1385,7 +1385,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1009,
-        "file": "/uploads/taka_tool3.pdf",
+        "file": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/taka_tool3_excxqb.pdf",
         "category": "community",
         "is_public": true,
         "title": "taka tool3",
@@ -1409,7 +1409,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1011,
-        "file": "/uploads/debate.png",
+        "file": "https://res.cloudinary.com/dsoqyopq7/image/upload/v1/local-repository/uploads/debate_ux21wr.png",
         "category": "community",
         "is_public": true,
         "title": "debate",
@@ -1433,7 +1433,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1013,
-        "file": "/uploads/tool-2.pdf",
+        "file": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/tool-2_a0ludj.pdf",
         "category": "community",
         "is_public": true,
         "title": "tool 2",
@@ -1469,7 +1469,7 @@ export const INITIAL_FILES = [
     },
     {
         "id": 1016,
-        "file": "/uploads/tool-1.pdf",
+        "file": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/tool-1_qckyuq.pdf",
         "category": "community",
         "is_public": true,
         "title": "tool 1",
