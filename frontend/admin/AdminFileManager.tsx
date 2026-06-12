@@ -154,7 +154,7 @@ const AdminFileManager: React.FC = () => {
                                 <div className="flex items-center gap-2">
                                     <span className="mono text-[0.55rem] text-white/20 uppercase font-black">{file.category}</span>
                                     <span className="w-1 h-1 rounded-full bg-white/10"></span>
-                                    <span className="mono text-[0.55rem] text-white/20 uppercase font-black">{new Date(file.uploaded_at).toLocaleDateString()}</span>
+                                    <span className="mono text-[0.55rem] text-white/20 uppercase font-black">{file.uploaded_at ? new Date(file.uploaded_at).toLocaleDateString() : new Date().toLocaleDateString()}</span>
                                 </div>
                             </div>
 

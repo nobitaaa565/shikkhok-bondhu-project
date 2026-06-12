@@ -1,4 +1,4 @@
-import { INITIAL_TRAINING, INITIAL_EXCLUSIVE, INITIAL_STRATEGIES } from './data';
+import { INITIAL_TRAINING, INITIAL_EXCLUSIVE, INITIAL_STRATEGIES, INITIAL_FILES } from './data';
 
 const BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
 const API_BASE_URL = `${BASE_URL}/api`;
@@ -89,8 +89,16 @@ class ApiService {
     static async getStrategies(category?: string) {
         if (BYPASS_BACKEND) {
             let data = JSON.parse(localStorage.getItem('educore_strategies') || '[]');
-            if (data.length === 0) {
-                data = INITIAL_STRATEGIES;
+            // Merge missing INITIAL_STRATEGIES items to ensure updates are propagated
+            let changed = false;
+            for (const s of INITIAL_STRATEGIES) {
+                if (!data.some((m: any) => m.id.toString() === s.id.toString())) {
+                    data.push(s);
+                    changed = true;
+                }
+            }
+            if (changed || data.length === 0) {
+                if (data.length === 0) data = INITIAL_STRATEGIES;
                 localStorage.setItem('educore_strategies', JSON.stringify(data));
             }
             if (category) {
@@ -213,6 +221,18 @@ class ApiService {
     static async listFiles(category?: string) {
         if (BYPASS_BACKEND) {
             let data = JSON.parse(localStorage.getItem('educore_files') || '[]');
+            let changed = false;
+            const initialFiles = typeof INITIAL_FILES !== 'undefined' ? INITIAL_FILES : [];
+            for (const f of initialFiles) {
+                if (!data.some((m: any) => m.id.toString() === f.id.toString() || m.file === f.file)) {
+                    data.push(f);
+                    changed = true;
+                }
+            }
+            if (changed || data.length === 0) {
+                if (data.length === 0) data = initialFiles;
+                localStorage.setItem('educore_files', JSON.stringify(data));
+            }
             if (category) {
                 data = data.filter((f: any) => f.category === category);
             }

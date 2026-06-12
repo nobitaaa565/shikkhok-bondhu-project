@@ -62,7 +62,7 @@ const TeachingStrategies: React.FC = () => {
           ...s,
           // If backend uses default models.DateField it might be YYYY-MM-DD
           // If frontend expects more, we can adjust.
-          date: s.date || new Date(s.uploaded_at).toLocaleDateString()
+          date: s.date || (s.uploaded_at ? new Date(s.uploaded_at).toLocaleDateString() : new Date().toLocaleDateString())
         }));
         setStrategies(mappedData);
       } catch (err) {

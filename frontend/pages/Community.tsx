@@ -298,7 +298,7 @@ const Community: React.FC = () => {
         type: f.file_type || 'File',
         downloads: 0,
         rating: 5.0,
-        date: new Date(f.uploaded_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }),
+        date: f.uploaded_at ? new Date(f.uploaded_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : new Date().toLocaleDateString(undefined, { month: 'short', day: 'numeric' }),
         thumbnailColor: f.file_type === 'pdf' ? 'bg-rose-500/10' : ['xlsx', 'csv', 'xls'].includes(f.file_type?.toLowerCase()) ? 'bg-emerald-500/10' : 'bg-blue-500/10',
         description: f.description || `Shared community resource: ${f.title || 'Educational Material'}`,
         fileUrl: ApiService.resolveMediaUrl(f.file)
