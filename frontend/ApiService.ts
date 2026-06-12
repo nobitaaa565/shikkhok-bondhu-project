@@ -335,8 +335,16 @@ class ApiService {
     static async getExclusiveMaterials(grade?: string, subject?: string) {
         if (BYPASS_BACKEND) {
             let data = JSON.parse(localStorage.getItem('educore_exclusive') || '[]');
-            if (data.length === 0) {
-                data = INITIAL_EXCLUSIVE;
+            // Merge missing INITIAL_EXCLUSIVE items to ensure updates are propagated
+            let changed = false;
+            for (const m of INITIAL_EXCLUSIVE) {
+                if (!data.some((x: any) => x.id.toString() === m.id.toString())) {
+                    data.push(m);
+                    changed = true;
+                }
+            }
+            if (changed || data.length === 0) {
+                if (data.length === 0) data = INITIAL_EXCLUSIVE;
                 localStorage.setItem('educore_exclusive', JSON.stringify(data));
             }
             if (grade) {
