@@ -683,7 +683,7 @@ export const INITIAL_EXCLUSIVE = [
         "views": 0,
         "file": "",
         "url": null,
-        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/raw/upload/v1/local-repository/uploads/time-tool2_x98csc.pdf"
+        "videoUrl": "https://res.cloudinary.com/dsoqyopq7/video/upload/q_auto/f_auto/v1781246850/local-repository/uploads/tool1_rxbmlr.mp4"
     },
     {
         "id": "45",

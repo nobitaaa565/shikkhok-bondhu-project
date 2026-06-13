@@ -92,9 +92,16 @@ class ApiService {
             // Merge missing INITIAL_STRATEGIES items to ensure updates are propagated
             let changed = false;
             for (const s of INITIAL_STRATEGIES) {
-                if (!data.some((m: any) => m.id.toString() === s.id.toString())) {
+                const existingIndex = data.findIndex((m: any) => m.id.toString() === s.id.toString());
+                if (existingIndex === -1) {
                     data.push(s);
                     changed = true;
+                } else {
+                    const existing = data[existingIndex];
+                    if (existing.title !== s.title || existing.content !== s.content || existing.videoUrl !== s.videoUrl) {
+                        data[existingIndex] = { ...existing, ...s };
+                        changed = true;
+                    }
                 }
             }
             if (changed || data.length === 0) {
@@ -338,9 +345,16 @@ class ApiService {
             // Merge missing INITIAL_EXCLUSIVE items to ensure updates are propagated
             let changed = false;
             for (const m of INITIAL_EXCLUSIVE) {
-                if (!data.some((x: any) => x.id.toString() === m.id.toString())) {
+                const existingIndex = data.findIndex((x: any) => x.id.toString() === m.id.toString());
+                if (existingIndex === -1) {
                     data.push(m);
                     changed = true;
+                } else {
+                    const existing = data[existingIndex];
+                    if (existing.title !== m.title || existing.videoUrl !== m.videoUrl || existing.url !== m.url || existing.file !== m.file) {
+                        data[existingIndex] = { ...existing, ...m };
+                        changed = true;
+                    }
                 }
             }
             if (changed || data.length === 0) {
